@@ -1,0 +1,16 @@
+body {
+    background-color: #f8f9fa;
+}
+.ranking-table {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.table thead {
+    background-color: #004aad;
+    color: white;
+}
+.navbar-brand span {
+    color: #004aad;
+    font-weight: bold;
+}
