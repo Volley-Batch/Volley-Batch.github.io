@@ -21,6 +21,16 @@ The main components of the system are:
 - **Web Dashboard** – Displays rankings and stats in a user-friendly interface.
 - **Batch Processing** – Periodically updates all rankings to keep them current.
 
+## ⚙️ Data Ingestion Script
+
+VolleyBatch includes a **Python script** (`update_results.py`) that retrieves the latest volleyball match and updates `results.csv`.
+
+### Example CSV Structure
+### Example CSV Structure
+match_id | date | league | team1 | team2 | team1_sets | team2_sets | team1_set1 | team2_set1 | team1_set2 | team2_set2 | team1_set3 | team2_set3 | team1_set4 | team2_set4 | team1_set5 | team2_set5 | winner |
+|------|---------|---------|--------|--------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|---------|
+|1240| 2025-10-28 | Serie A | Modena | Perugia | 3 | 1 | 25 | 20 | 23 | 25 | 25 | 22 | 25 | 18 | 0 | 0 | Modena |
+
 ---
 
 ## 🏗️ Architecture
