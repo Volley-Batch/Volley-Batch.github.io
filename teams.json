@@ -4,45 +4,45 @@
         "name": "Itas Trentino",
         "diretta_id": "CffxNRaH",
         "diretta_name": "trentino",
-        "elo": 448,
+        "elo": 446,
         "date": "2025-10-01",
-        "last_match_id": 41
+        "last_match_id": 56
     },
     {
         "id": "it_m_2",
         "name": "Cucine Lube Civitanova",
         "diretta_id": "hxtqRVVu",
         "diretta_name": "lube-civitanova",
-        "elo": 419,
+        "elo": 425,
         "date": "2025-10-01",
-        "last_match_id": 47
+        "last_match_id": 60
     },
     {
         "id": "it_m_3",
         "name": "Sir Susa Scai Perugia",
         "diretta_id": "EJS1lfOD",
         "diretta_name": "safety-perugia",
-        "elo": 532,
+        "elo": 497,
         "date": "2025-10-01",
-        "last_match_id": 42
+        "last_match_id": 59
     },
     {
         "id": "it_m_4",
         "name": "Rana Verona",
         "diretta_id": "OdjU5n0U",
         "diretta_name": "verona",
-        "elo": 456,
+        "elo": 419,
         "date": "2025-10-01",
-        "last_match_id": 42
+        "last_match_id": 58
     },
     {
         "id": "it_m_5",
         "name": "Allianz Milano",
         "diretta_id": "2qsyTQW9",
         "diretta_name": "milano",
-        "elo": 464,
+        "elo": 480,
         "date": "2025-10-01",
-        "last_match_id": 50
+        "last_match_id": 59
     },
     {
         "id": "it_m_6",
@@ -58,53 +58,53 @@
         "name": "MA Acqua S.Bernardo Cuneo",
         "diretta_id": "KCDVlA71",
         "diretta_name": "cuneo-volley",
-        "elo": 512,
+        "elo": 511,
         "date": "2025-10-01",
-        "last_match_id": 47
+        "last_match_id": 58
     },
     {
         "id": "it_m_8",
         "name": "Valsa Group Modena",
         "diretta_id": "6upmQkon",
         "diretta_name": "modena",
-        "elo": 501,
+        "elo": 489,
         "date": "2025-10-01",
-        "last_match_id": 48
+        "last_match_id": 51
     },
     {
         "id": "it_m_9",
         "name": "Gas Sales Bluenergy Piacenza",
         "diretta_id": "IXfYN7pB",
         "diretta_name": "piacenza",
-        "elo": 565,
+        "elo": 591,
         "date": "2025-10-01",
-        "last_match_id": 48
+        "last_match_id": 54
     },
     {
         "id": "it_m_10",
         "name": "Vero Volley Monza",
         "diretta_id": "vgreOTFb",
         "diretta_name": "monza",
-        "elo": 460,
+        "elo": 477,
         "date": "2025-10-01",
-        "last_match_id": 49
+        "last_match_id": 57
     },
     {
         "id": "it_m_11",
         "name": "Yuasa Battery Grottazzolina",
         "diretta_id": "nNpxlbKs",
         "diretta_name": "grottazzolina",
-        "elo": 556,
+        "elo": 553,
         "date": "2025-10-01",
-        "last_match_id": 50
+        "last_match_id": 60
     },
     {
         "id": "it_m_12",
         "name": "Cisterna Volley",
         "diretta_id": "A7seqaBP",
         "diretta_name": "cisterna",
-        "elo": 572,
+        "elo": 593,
         "date": "2025-10-01",
-        "last_match_id": 44
+        "last_match_id": 55
     }
 ]
