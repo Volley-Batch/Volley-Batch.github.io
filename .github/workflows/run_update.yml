@@ -2,7 +2,7 @@ name: Run update.py and commit results
 
 on:
   schedule:                 # Run every 1 minute
-    - cron: "*/1 * * * *"
+    - cron: "0 */24 * * *"
 
 jobs:
   run-update:
