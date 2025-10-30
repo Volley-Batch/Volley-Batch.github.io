@@ -1,9 +1,6 @@
 name: Run update.py and commit results
 
 on:
-  push:
-    branches:
-      - '**'
   schedule:                 # Run every 1 minute
     - cron: "*/1 * * * *"
 
