@@ -143,6 +143,14 @@ def update_results():
     print("results.csv updated.")
 
 
+def compute_elo(team_a_elo, team_b_elo, score_a, score_b):
+    """
+    Compute the new ELO ratings for two teams based on their match result.
+    """
+    # TODO: Implement
+    return new_team_a_elo, new_team_b_elo
+
+
 def update_elo_ratings():
     """
     Recalculate ELO ratings for all teams based on the updated match results.
