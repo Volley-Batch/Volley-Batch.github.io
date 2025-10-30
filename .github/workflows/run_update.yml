@@ -1,0 +1,30 @@
+name: Run update.py
+
+on:
+  push:                     # Run when code is pushed (any branch)
+    branches:
+      - '**'
+  schedule:                 # Run every 2 minutes
+    - cron: "*/2 * * * *"
+
+jobs:
+  run-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'   # or specify a version, e.g. '3.11'
+
+      - name: Install dependencies (if any)
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Run update.py
+        run: python update.py
