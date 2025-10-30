@@ -1,24 +1,26 @@
-name: Run update.py
+name: Run update.py and commit results
 
 on:
-  push:                     # Run when code is pushed (any branch)
-    branches:
-      - '**'
-  schedule:                 # Run every 2 minutes
-    - cron: "*/2 * * * *"
+  schedule:                 # Run every 1 minute
+    - cron: "*/1 * * * *"
 
 jobs:
   run-update:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          github_username: ${{ github.repository_owner }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'   # or specify a version, e.g. '3.11'
+          python-version: '3.x'
 
       - name: Install dependencies (if any)
         run: |
@@ -28,3 +30,17 @@ jobs:
 
       - name: Run update.py
         run: python update.py
+      
+      - name: Commit and push results.csv (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add results.csv
+          git add teams.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update results.csv and teams.json [auto]"
+            git push
+          fi
