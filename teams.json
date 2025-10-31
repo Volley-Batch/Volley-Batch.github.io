@@ -4,18 +4,18 @@
         "name": "Itas Trentino",
         "diretta_id": "CffxNRaH",
         "diretta_name": "trentino",
-        "elo": 451,
+        "elo": 481,
         "date": "2025-10-01",
-        "last_match_id": 64
+        "last_match_id": 78
     },
     {
         "id": "it_m_2",
         "name": "Cucine Lube Civitanova",
         "diretta_id": "hxtqRVVu",
         "diretta_name": "lube-civitanova",
-        "elo": 443,
+        "elo": 447,
         "date": "2025-10-01",
-        "last_match_id": 65
+        "last_match_id": 80
     },
     {
         "id": "it_m_3",
@@ -31,9 +31,9 @@
         "name": "Rana Verona",
         "diretta_id": "OdjU5n0U",
         "diretta_name": "verona",
-        "elo": 414,
+        "elo": 386,
         "date": "2025-10-01",
-        "last_match_id": 70
+        "last_match_id": 77
     },
     {
         "id": "it_m_5",
@@ -49,62 +49,62 @@
         "name": "Sonepar Padova",
         "diretta_id": "Kfbd7lGB",
         "diretta_name": "padova",
-        "elo": 504,
+        "elo": 503,
         "date": "2025-10-01",
-        "last_match_id": 70
+        "last_match_id": 72
     },
     {
         "id": "it_m_7",
         "name": "MA Acqua S.Bernardo Cuneo",
         "diretta_id": "KCDVlA71",
         "diretta_name": "cuneo-volley",
-        "elo": 488,
+        "elo": 515,
         "date": "2025-10-01",
-        "last_match_id": 66
+        "last_match_id": 80
     },
     {
         "id": "it_m_8",
         "name": "Valsa Group Modena",
         "diretta_id": "6upmQkon",
         "diretta_name": "modena",
-        "elo": 504,
+        "elo": 488,
         "date": "2025-10-01",
-        "last_match_id": 63
+        "last_match_id": 78
     },
     {
         "id": "it_m_9",
         "name": "Gas Sales Bluenergy Piacenza",
         "diretta_id": "IXfYN7pB",
         "diretta_name": "piacenza",
-        "elo": 591,
+        "elo": 578,
         "date": "2025-10-01",
-        "last_match_id": 54
+        "last_match_id": 79
     },
     {
         "id": "it_m_10",
         "name": "Vero Volley Monza",
         "diretta_id": "vgreOTFb",
         "diretta_name": "monza",
-        "elo": 479,
+        "elo": 474,
         "date": "2025-10-01",
-        "last_match_id": 68
+        "last_match_id": 79
     },
     {
         "id": "it_m_11",
         "name": "Yuasa Battery Grottazzolina",
         "diretta_id": "nNpxlbKs",
         "diretta_name": "grottazzolina",
-        "elo": 553,
+        "elo": 548,
         "date": "2025-10-01",
-        "last_match_id": 60
+        "last_match_id": 76
     },
     {
         "id": "it_m_12",
         "name": "Cisterna Volley",
         "diretta_id": "A7seqaBP",
         "diretta_name": "cisterna",
-        "elo": 574,
+        "elo": 582,
         "date": "2025-10-01",
-        "last_match_id": 69
+        "last_match_id": 74
     }
 ]
