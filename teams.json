@@ -2,109 +2,625 @@
     {
         "id": "it_m_1",
         "name": "Itas Trentino",
+        "names": [
+            "Itas Trentino",
+            "Trentino Volley",
+            "Trentino"
+        ],
         "diretta_id": "CffxNRaH",
         "diretta_name": "trentino",
-        "elo": 481,
-        "date": "2025-10-01",
-        "last_match_id": 78
+        "elo": 451,
+        "last_match_date": "2025-10-01",
+        "last_match_id": 64
     },
     {
         "id": "it_m_2",
         "name": "Cucine Lube Civitanova",
+        "names": [
+            "Cucine Lube Civitanova",
+            "Lube Civitanova",
+            "Lube",
+            "Civitanova"
+        ],
         "diretta_id": "hxtqRVVu",
         "diretta_name": "lube-civitanova",
-        "elo": 447,
-        "date": "2025-10-01",
-        "last_match_id": 80
+        "elo": 443,
+        "last_match_date": "2025-10-01",
+        "last_match_id": 65
     },
     {
         "id": "it_m_3",
         "name": "Sir Susa Scai Perugia",
+        "names": [
+            "Sir Susa Scai Perugia",
+            "Sir Safety Perugia",
+            "Safety Perugia",
+            "Perugia"
+        ],
         "diretta_id": "EJS1lfOD",
         "diretta_name": "safety-perugia",
         "elo": 499,
-        "date": "2025-10-01",
+        "last_match_date": "2025-10-01",
         "last_match_id": 69
     },
     {
         "id": "it_m_4",
         "name": "Rana Verona",
+        "names": [
+            "Rana Verona",
+            "Verona"
+        ],
         "diretta_id": "OdjU5n0U",
         "diretta_name": "verona",
-        "elo": 386,
-        "date": "2025-10-01",
-        "last_match_id": 77
+        "elo": 414,
+        "last_match_date": "2025-10-01",
+        "last_match_id": 70
     },
     {
         "id": "it_m_5",
         "name": "Allianz Milano",
+        "names": [
+            "Allianz Milano",
+            "Milano"
+        ],
         "diretta_id": "2qsyTQW9",
         "diretta_name": "milano",
         "elo": 479,
-        "date": "2025-10-01",
+        "last_match_date": "2025-10-01",
         "last_match_id": 63
     },
     {
         "id": "it_m_6",
         "name": "Sonepar Padova",
+        "names": [
+            "Sonepar Padova",
+            "Padova"
+        ],
         "diretta_id": "Kfbd7lGB",
         "diretta_name": "padova",
-        "elo": 503,
-        "date": "2025-10-01",
-        "last_match_id": 72
+        "elo": 504,
+        "last_match_date": "2025-10-01",
+        "last_match_id": 70
     },
     {
         "id": "it_m_7",
         "name": "MA Acqua S.Bernardo Cuneo",
+        "names": [
+            "MA Acqua S.Bernardo Cuneo",
+            "Cuneo",
+            "Cuneo Volley"
+        ],
         "diretta_id": "KCDVlA71",
         "diretta_name": "cuneo-volley",
-        "elo": 515,
-        "date": "2025-10-01",
-        "last_match_id": 80
+        "elo": 488,
+        "last_match_date": "2025-10-01",
+        "last_match_id": 66
     },
     {
         "id": "it_m_8",
         "name": "Valsa Group Modena",
+        "names": [
+            "Valsa Group Modena",
+            "Modena"
+        ],
         "diretta_id": "6upmQkon",
         "diretta_name": "modena",
-        "elo": 488,
-        "date": "2025-10-01",
-        "last_match_id": 78
+        "elo": 504,
+        "last_match_date": "2025-10-01",
+        "last_match_id": 63
     },
     {
         "id": "it_m_9",
         "name": "Gas Sales Bluenergy Piacenza",
+        "names": [
+            "Gas Sales Bluenergy Piacenza",
+            "Piacenza"
+        ],
         "diretta_id": "IXfYN7pB",
         "diretta_name": "piacenza",
-        "elo": 578,
-        "date": "2025-10-01",
-        "last_match_id": 79
+        "elo": 591,
+        "last_match_date": "2025-10-01",
+        "last_match_id": 54
     },
     {
         "id": "it_m_10",
         "name": "Vero Volley Monza",
+        "names": [
+            "Vero Volley Monza",
+            "Monza"
+        ],
         "diretta_id": "vgreOTFb",
         "diretta_name": "monza",
-        "elo": 474,
-        "date": "2025-10-01",
-        "last_match_id": 79
+        "elo": 479,
+        "last_match_date": "2025-10-01",
+        "last_match_id": 68
     },
     {
         "id": "it_m_11",
         "name": "Yuasa Battery Grottazzolina",
+        "names": [
+            "Yuasa Battery Grottazzolina",
+            "Grottazzolina"
+        ],
         "diretta_id": "nNpxlbKs",
         "diretta_name": "grottazzolina",
-        "elo": 548,
-        "date": "2025-10-01",
-        "last_match_id": 76
+        "elo": 553,
+        "last_match_date": "2025-10-01",
+        "last_match_id": 60
     },
     {
         "id": "it_m_12",
         "name": "Cisterna Volley",
+        "names": [
+            "Cisterna Volley",
+            "Cisterna"
+        ],
         "diretta_id": "A7seqaBP",
         "diretta_name": "cisterna",
-        "elo": 582,
-        "date": "2025-10-01",
-        "last_match_id": 74
+        "elo": 574,
+        "last_match_date": "2025-10-01",
+        "last_match_id": 69
+    },
+    {
+        "name": "Ziraat Bankasi",
+        "names": [
+            "Ziraat Bankasi"
+        ],
+        "diretta_id": "j7Id0yFb",
+        "diretta_name": "ziraat-bankasi",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Chaumont",
+        "names": [
+            "Chaumont"
+        ],
+        "diretta_id": "G06DuLNr",
+        "diretta_name": "chaumont",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Brasov",
+        "names": [
+            "Brasov"
+        ],
+        "diretta_id": "bHwNIoOA",
+        "diretta_name": "brasov",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Taranto",
+        "names": [
+            "Taranto"
+        ],
+        "diretta_id": "CGTMvJJt",
+        "diretta_name": "taranto",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Benfica",
+        "names": [
+            "Benfica"
+        ],
+        "diretta_id": "0QqJdHDe",
+        "diretta_name": "benfica",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Sada Cruzeiro",
+        "names": [
+            "Sada Cruzeiro"
+        ],
+        "diretta_id": "dhVmA0z9",
+        "diretta_name": "sada-cruzeiro",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Ciudad Voley",
+        "names": [
+            "Ciudad Voley"
+        ],
+        "diretta_id": "WMOb4cbO",
+        "diretta_name": "ciudad-buenos-aires",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Shahdab Yazd",
+        "names": [
+            "Shahdab Yazd"
+        ],
+        "diretta_id": "4vVpW8mC",
+        "diretta_name": "shahdab-yazd",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Lublin",
+        "names": [
+            "Lublin"
+        ],
+        "diretta_id": "Kv7iGxys",
+        "diretta_name": "lublin",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Spor Toto",
+        "names": [
+            "Spor Toto"
+        ],
+        "diretta_id": "xKjcGtha",
+        "diretta_name": "spor-toto",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Groningen/Lycurgus",
+        "names": [
+            "Groningen/Lycurgus"
+        ],
+        "diretta_id": "rH7kksOP",
+        "diretta_name": "groningen-lycurgus",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Karadjordje Topola",
+        "names": [
+            "Karadjordje Topola"
+        ],
+        "diretta_id": "ji1tIHr9",
+        "diretta_name": "karadjordje-topola",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Sirjan",
+        "names": [
+            "Sirjan"
+        ],
+        "diretta_id": "Mgp4x5JA",
+        "diretta_name": "sirjan",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Al Ahly",
+        "names": [
+            "Al Ahly"
+        ],
+        "diretta_id": "rmfOGkZP",
+        "diretta_name": "al-ahly",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Lube Civitanova",
+        "names": [
+            "Lube Civitanova"
+        ],
+        "diretta_id": "UBvJOjmK",
+        "diretta_name": "praia-clube",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Zawiercie",
+        "names": [
+            "Zawiercie"
+        ],
+        "diretta_id": "WhuLLKZT",
+        "diretta_name": "zawiercie",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Halkbank",
+        "names": [
+            "Halkbank"
+        ],
+        "diretta_id": "fuJ9F075",
+        "diretta_name": "halkbank",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Ceske Budejovice",
+        "names": [
+            "Ceske Budejovice"
+        ],
+        "diretta_id": "Crdl5TM1",
+        "diretta_name": "ceske-budejovice",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "St. Nazaire",
+        "names": [
+            "St. Nazaire"
+        ],
+        "diretta_id": "6FMIfxIE",
+        "diretta_name": "st-nazaire",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Norwid Czestochowa",
+        "names": [
+            "Norwid Czestochowa"
+        ],
+        "diretta_id": "EuwcJPKB",
+        "diretta_name": "norwid-czestochowa",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Kedzierzyn-Kozle",
+        "names": [
+            "Kedzierzyn-Kozle"
+        ],
+        "diretta_id": "n7gpLG2s",
+        "diretta_name": "kedzierzyn-kozle",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Roeselare",
+        "names": [
+            "Roeselare"
+        ],
+        "diretta_id": "IVLyj26M",
+        "diretta_name": "roeselare",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Tirol Innsbruck",
+        "names": [
+            "Tirol Innsbruck"
+        ],
+        "diretta_id": "r53lQ5D9",
+        "diretta_name": "tirol-innsbruck",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Sviluppo Sud Catania",
+        "names": [
+            "Sviluppo Sud Catania"
+        ],
+        "diretta_id": "h2e6aZ5j",
+        "diretta_name": "sviluppo-sud-catania",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Brescia",
+        "names": [
+            "Brescia"
+        ],
+        "diretta_id": "E5GbH1It",
+        "diretta_name": "centrlatte-brescia",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Virtus Volley Fano",
+        "names": [
+            "Virtus Volley Fano"
+        ],
+        "diretta_id": "f5xyEjsf",
+        "diretta_name": "virtus-volley-fano",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Pordenone",
+        "names": [
+            "Pordenone"
+        ],
+        "diretta_id": "Aa26nUKi",
+        "diretta_name": "pordenone",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Aversa",
+        "names": [
+            "Aversa"
+        ],
+        "diretta_id": "pIIVkojS",
+        "diretta_name": "aversa",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Pineto",
+        "names": [
+            "Pineto"
+        ],
+        "diretta_id": "p6iQ6SpO",
+        "diretta_name": "aran-pineto",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Macerata",
+        "names": [
+            "Macerata"
+        ],
+        "diretta_id": "4repT6KT",
+        "diretta_name": "macerata",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Ravenna",
+        "names": [
+            "Ravenna"
+        ],
+        "diretta_id": "vDAia314",
+        "diretta_name": "cmc-ravenna",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Palmi",
+        "names": [
+            "Palmi"
+        ],
+        "diretta_id": "UqlHXSK0",
+        "diretta_name": "omifer-palmi",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Siena",
+        "names": [
+            "Siena"
+        ],
+        "diretta_id": "GWwIvBws",
+        "diretta_name": "emma-villas-siena",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Reggio Emilia",
+        "names": [
+            "Reggio Emilia"
+        ],
+        "diretta_id": "CKzVtdbQ",
+        "diretta_name": "reggio",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Porto Viro",
+        "names": [
+            "Porto Viro"
+        ],
+        "diretta_id": "noGVbkaL",
+        "diretta_name": "porto-viro",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Giesen",
+        "names": [
+            "Giesen"
+        ],
+        "diretta_id": "p4s7hUbp",
+        "diretta_name": "tsv-giesen-grizzlys",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Olympiakos",
+        "names": [
+            "Olympiakos"
+        ],
+        "diretta_id": "p84AgERs",
+        "diretta_name": "olympiakos",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Fenerbahce",
+        "names": [
+            "Fenerbahce"
+        ],
+        "diretta_id": "IgKl2cpn",
+        "diretta_name": "fenerbahce",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Lupi Santa Croce",
+        "names": [
+            "Lupi Santa Croce"
+        ],
+        "diretta_id": "pQJMs2WT",
+        "diretta_name": "santa-croce",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Jastrzebski",
+        "names": [
+            "Jastrzebski"
+        ],
+        "diretta_id": "lWD9RIPD",
+        "diretta_name": "jastrzebski",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Projekt Warszawa",
+        "names": [
+            "Projekt Warszawa"
+        ],
+        "diretta_id": "zav73FX6",
+        "diretta_name": "projekt-warszawa",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
+    },
+    {
+        "name": "Cant\u00c3\u00ba",
+        "names": [
+            "Cant\u00c3\u00ba"
+        ],
+        "diretta_id": "YJaykt38",
+        "diretta_name": "cantu",
+        "elo": 500,
+        "last_match_date": null,
+        "last_match_id": null
     }
 ]

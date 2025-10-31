@@ -1,7 +1,7 @@
 name: Run update.py and commit results
 
 on:
-  schedule:                 # Run every 1 minute
+  schedule:
     - cron: "0 */24 * * *"
 
 jobs:
@@ -15,6 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          persist-credentials: true
           github_username: ${{ github.repository_owner }}
 
       - name: Set up Python
@@ -22,11 +23,14 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies (if any)
+      - name: Install dependencies (pip)
         run: |
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
+
+      - name: Install Playwright browsers and OS deps
+        run: python -m playwright install --with-deps
 
       - name: Run update.py
         run: python update.py
