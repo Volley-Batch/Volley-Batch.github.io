@@ -28,42 +28,6 @@ body {
     border-spacing: 0;
     min-width: 600px;
 }
-@media (max-width: 480px) {
-    .table tbody, .table tbody tr, .table tbody td {
-        display: block;
-        width: 100%;
-    }
-
-    .table tbody tr {
-        margin-bottom: 1rem;
-        border-radius: 8px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        padding: 10px;
-        background-color: #fff;
-    }
-
-    .table tbody td {
-        text-align: right;
-        padding-left: 50%;
-        position: relative;
-        border: none;
-        border-bottom: 1px solid #f1f1f1;
-    }
-
-    .table tbody td::before {
-        content: attr(data-label);
-        position: absolute;
-        left: 15px;
-        width: 45%;
-        text-align: left;
-        font-weight: 600;
-        color: #555;
-    }
-
-    .table tbody td:last-child {
-        border-bottom: 0;
-    }
-}
 
 .navbar-brand span {
   color: #4a7c59;
