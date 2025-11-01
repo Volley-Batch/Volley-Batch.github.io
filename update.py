@@ -205,7 +205,7 @@ def parse_team_results_diretta_page(soup, teams_data):
                             "names": [team1_display_name],
                             "diretta_id": team1_id,
                             "diretta_name": '-'.join(team1_slug.split('-')[:-1]),
-                            "elo": 500,
+                            "elo": 200,
                             "last_match_date": None,
                             "last_match_id": None
                         }
@@ -221,7 +221,7 @@ def parse_team_results_diretta_page(soup, teams_data):
                             "names": [team2_display_name],
                             "diretta_id": team2_id,
                             "diretta_name": '-'.join(team2_slug.split('-')[:-1]),
-                            "elo": 500,
+                            "elo": 200,
                             "last_match_date": None,
                             "last_match_id": None
                         }
@@ -392,7 +392,7 @@ def update_elo_ratings():
 
         for _, match in df_team_matches.iterrows():
             opponent_id = match["team2"] if match["team1"] == team_id else match["team1"]
-            opponent_elo = 500
+            opponent_elo = 200
             for t in teams_data:
                 if t["id"] == opponent_id:
                     opponent_elo = t["elo"]
