@@ -16,6 +16,10 @@ from playwright.sync_api import sync_playwright
 # -- CONFIG --
 DIRETTA_URL = "https://www.diretta.it/squadra/{diretta_name}/{diretta_id}/risultati/"
 RESULTS_CSV = "results.csv"
+STATS_JSON = "stats.json"
+stats_data = {}
+with open(STATS_JSON, "r", encoding="utf-8") as stats_file:
+    stats_data = json.load(stats_file)
 
 # ANSI color codes
 RED = '\033[91m'
@@ -257,31 +261,20 @@ def parse_team_results_diretta_page(soup, teams_data):
         hs_el = div.select_one("span.event__score--home")
         as_el = div.select_one("span.event__score--away")
         try:
-            home_sets = int(hs_el.get_text(strip=True)) if hs_el and hs_el.get_text(strip=True).isdigit() else None
+            home_sets = int(hs_el.get_text(strip=True))
+            away_sets = int(as_el.get_text(strip=True))
         except Exception:
-            home_sets = None
-        try:
-            away_sets = int(as_el.get_text(strip=True)) if as_el and as_el.get_text(strip=True).isdigit() else None
-        except Exception:
-            away_sets = None
-
-        # Check if match date is valid and after team start dates
-        if date_text:
-            # Check if either team has a "last_match_date" field and if match is before that date
-            skip_match = False
-            for team in teams_data:
-                team_diretta_id = team.get("diretta_id")
-                team_start_date = team.get("last_match_date")
-                if team_start_date and team_diretta_id:
-                    # Check if this team is involved in the match (home or away)
-                    # home/away can be either full slug or diretta_id
-                    if (home and team_diretta_id in home) or (away and team_diretta_id in away):
-                        if date_text < team_start_date:
-                            # print(f"Skipping match on {date_text} (home: {home}, away: {away}) - before team {team.get('name')} start date {team_start_date}")
-                            skip_match = True
-                            break
-            
-            if skip_match:
+            continue
+        
+        # Check if at least one team scored exactly 3 sets
+        if home_sets != 3 and away_sets != 3:
+            continue
+        
+        # Check if match date is valid and after stats last update
+        if date_text and stats_data.get("last_update"):
+            last_update_date = stats_data["last_update"].split("T")[0]
+            if date_text < last_update_date:
+                # print(f"Skipping match on {date_text} (home: {home}, away: {away}) - before stats last update {last_update_date}")
                 continue
 
         results.append({
