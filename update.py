@@ -23,6 +23,8 @@ with open(STATS_JSON, "r", encoding="utf-8") as stats_file:
 
 # ANSI color codes
 RED = '\033[91m'
+YELLOW = '\033[93m'
+GREEN = '\033[92m'
 RESET = '\033[0m'
 
 def normalize_text(text):
@@ -45,6 +47,46 @@ def get_soup(url):
         soup = BeautifulSoup(html, "html.parser")
         browser.close()
         return soup
+
+def get_home_away_from_match_page(match_url):
+    """
+    Fetch the match page and extract home/away team IDs from the HTML.
+    Returns a tuple (home_id, away_id) or (None, None) if extraction fails.
+    """
+    try:
+        soup = get_soup(match_url)
+        
+        # Find the home team div: <div class="duelParticipant__home ...">
+        home_div = soup.select_one('div[class*="duelParticipant__home"]')
+        # Find the away team div: <div class="duelParticipant__away ...">
+        away_div = soup.select_one('div[class*="duelParticipant__away"]')
+        
+        home_id = None
+        away_id = None
+        
+        if home_div:
+            # Find the link inside: <a href="/squadra/trentino/CffxNRaH/" ...>
+            home_link = home_div.select_one('a[href*="/squadra/"]')
+            if home_link and home_link.get('href'):
+                # Extract ID from href: /squadra/trentino/CffxNRaH/
+                href_parts = home_link['href'].strip('/').split('/')
+                if len(href_parts) >= 3:
+                    home_id = href_parts[2]  # CffxNRaH
+        
+        if away_div:
+            # Find the link inside: <a href="/squadra/padova/Kfbd7lGB/" ...>
+            away_link = away_div.select_one('a[href*="/squadra/"]')
+            if away_link and away_link.get('href'):
+                # Extract ID from href: /squadra/padova/Kfbd7lGB/
+                href_parts = away_link['href'].strip('/').split('/')
+                if len(href_parts) >= 3:
+                    away_id = href_parts[2]  # Kfbd7lGB
+        
+        return home_id, away_id
+    except Exception as e:
+        print(f"{RED}Warning: Failed to extract home/away IDs from match page: {match_url}{RESET}")
+        print(f"{RED}Error details: {e}{RESET}")
+        return None, None
 
 def parse_team_results_diretta_page(soup, teams_data):
     """
@@ -104,6 +146,10 @@ def parse_team_results_diretta_page(soup, teams_data):
             except Exception as e:
                 print(f"{RED}Warning: Could not parse date '{date_raw}': {e}{RESET}")
                 date_text = None
+        
+        # Skip matches before stats last update
+        if not date_text or date_text < stats_data.get("last_update", "0000-00-00").split("T")[0]:
+            continue
 
         # teams:
         home_el = div.select_one(".event__participant--home")
@@ -123,129 +169,97 @@ def parse_team_results_diretta_page(soup, teams_data):
         away = None
         if match_url:
             try:
-                # Parse URL path to extract team identifiers
-                path_parts = urlparse(match_url).path.strip('/').split('/')
-                if len(path_parts) >= 4:
-                    team1_slug = path_parts[2]  # e.g., "shahdab-yazd-4vVpW8mC"
-                    team2_slug = path_parts[3]  # e.g., "trentino-CffxNRaH"
-                    
-                    team1_id = team1_slug.split('-')[-1]
-                    team2_id = team2_slug.split('-')[-1]
-                    
-                    # Match display names with names in team data of team id
-                    team1_names = []
-                    team2_names = []
-                    team1_obj = None
-                    team2_obj = None
-                    for team in teams_data:
-                        if team.get("diretta_id") == team1_id:
-                            team1_names = team.get("names", [])
-                            team1_obj = team
-                        if team.get("diretta_id") == team2_id:
-                            team2_names = team.get("names", [])
-                            team2_obj = team
-                    
-                    # Check if teams are in teams_data, if not add them
-                    team1_found = False
-                    team2_found = False
-                    for team in teams_data:
-                        if team.get("diretta_id") == team1_id:
-                            team1_found = True
-                        if team.get("diretta_id") == team2_id:
-                            team2_found = True
-                    
-                    # First, match display names to determine which team is which
-                    # This must be done BEFORE adding missing teams
-                    home_is_team1 = None
-                    if home_display and away_display:
-                        # Normalize names for comparison
-                        home_norm = normalize_text(home_display)
-                        away_norm = normalize_text(away_display)
+                # Fetch the match page to get home/away team IDs directly
+                print(f"Fetching match page to extract home/away teams: {match_url}")
+                home_id, away_id = get_home_away_from_match_page(match_url)
+                
+                if not home_id or not away_id:
+                    print(f"{RED}Warning: Could not extract home/away IDs from match page{RESET}")
+                    continue
+                
+                print(f"Extracted home_id: {home_id}, away_id: {away_id}")
+                
+                # Check if teams exist in teams_data, if not add them
+                home_found = False
+                away_found = False
+                home_slug = None
+                away_slug = None
+                
+                for team in teams_data:
+                    if team.get("diretta_id") == home_id:
+                        home_found = True
+                        home_slug = f"{team.get('diretta_name', 'unknown')}-{home_id}"
+                    if team.get("diretta_id") == away_id:
+                        away_found = True
+                        away_slug = f"{team.get('diretta_name', 'unknown')}-{away_id}"
+                
+                # Add missing teams to teams_data
+                # Note: Automatically added teams do NOT get an "id" field, only "diretta_id"
+                # This way they will be skipped when fetching matches
+                if not home_found:
+                    # Parse URL path to get the team slug for the home team
+                    path_parts = urlparse(match_url).path.strip('/').split('/')
+                    if len(path_parts) >= 4:
+                        # Find which slug contains the home_id
+                        team1_slug = path_parts[2]
+                        team2_slug = path_parts[3]
                         
-                        if team1_names and any(normalize_text(name) in home_norm for name in team1_names):
-                            home_is_team1 = True
-                        elif team2_names and any(normalize_text(name) in home_norm for name in team2_names):
-                            home_is_team1 = False
-                        elif team1_names and any(normalize_text(name) in away_norm for name in team1_names):
-                            home_is_team1 = False
-                        elif team2_names and any(normalize_text(name) in away_norm for name in team2_names):
-                            home_is_team1 = True
-                    
-                    # Update existing team names if they have encoding issues
-                    # (if the display name normalizes better than the stored name)
-                    if team1_obj and home_is_team1 is not None:
-                        team1_display = home_display if home_is_team1 else away_display
-                        if team1_display and team1_names:
-                            # Check if any stored name has encoding issues (contains unicode escape sequences when printed)
-                            if any('\u00c3' in name or '\u0192' in name or '\u00c2' in name for name in team1_names):
-                                print(f"Updating team name from '{team1_obj['name']}' to '{team1_display}' (fixing encoding)")
-                                team1_obj['name'] = team1_display
-                                team1_obj['names'] = [team1_display]
-                                team1_names = [team1_display]
-                    
-                    if team2_obj and home_is_team1 is not None:
-                        team2_display = away_display if home_is_team1 else home_display
-                        if team2_display and team2_names:
-                            # Check if any stored name has encoding issues
-                            if any('\u00c3' in name or '\u0192' in name or '\u00c2' in name for name in team2_names):
-                                print(f"Updating team name from '{team2_obj['name']}' to '{team2_display}' (fixing encoding)")
-                                team2_obj['name'] = team2_display
-                                team2_obj['names'] = [team2_display]
-                                team2_names = [team2_display]
-                    
-                    # Add missing teams to teams_data with correct names
-                    # Note: Automatically added teams do NOT get an "id" field, only "diretta_id"
-                    # This way they will be skipped when fetching matches
-                    if not team1_found:
-                        # Determine which display name corresponds to team1
-                        team1_display_name = home_display if home_is_team1 else away_display if home_is_team1 is not None else home_display
-                        print(f"Adding new team to teams.json: {team1_display_name} (diretta_id: {team1_id})")
-                        new_team = {
-                            "name": team1_display_name,
-                            "names": [team1_display_name],
-                            "diretta_id": team1_id,
-                            "diretta_name": '-'.join(team1_slug.split('-')[:-1]),
-                            "elo": 200,
-                            "last_match_date": None,
-                            "last_match_id": None
-                        }
-                        teams_data.append(new_team)
-                        team1_names = [team1_display_name]
-                    
-                    if not team2_found:
-                        # Determine which display name corresponds to team2
-                        team2_display_name = away_display if home_is_team1 else home_display if home_is_team1 is not None else away_display
-                        print(f"Adding new team to teams.json: {team2_display_name} (diretta_id: {team2_id})")
-                        new_team = {
-                            "name": team2_display_name,
-                            "names": [team2_display_name],
-                            "diretta_id": team2_id,
-                            "diretta_name": '-'.join(team2_slug.split('-')[:-1]),
-                            "elo": 200,
-                            "last_match_date": None,
-                            "last_match_id": None
-                        }
-                        teams_data.append(new_team)
-                        team2_names = [team2_display_name]
-                    
-                    # Now match display names to determine home/away slugs
-                    # Use normalized text for comparison
-                    home_norm = normalize_text(home_display) if home_display else ""
-                    away_norm = normalize_text(away_display) if away_display else ""
-                    team1_names_norm = [normalize_text(name) for name in team1_names]
-                    team2_names_norm = [normalize_text(name) for name in team2_names]
-                    
-                    if home_display and team1_names_norm and any(name in home_norm for name in team1_names_norm) and away_display and team2_names_norm and any(name in away_norm for name in team2_names_norm):
-                        home = team1_slug
-                        away = team2_slug
-                    elif home_display and team2_names_norm and any(name in home_norm for name in team2_names_norm) and away_display and team1_names_norm and any(name in away_norm for name in team1_names_norm):
-                        home = team2_slug
-                        away = team1_slug
+                        if team1_slug.endswith(home_id):
+                            home_slug = team1_slug
+                        elif team2_slug.endswith(home_id):
+                            home_slug = team2_slug
+                        else:
+                            home_slug = f"unknown-{home_id}"
                     else:
-                        # Fallback: use the slugs anyway since we now have the teams in teams_data
-                        print(f"{RED}Warning: Could not match team names from URL to display names: {team1_slug}, {team2_slug} vs {home_display}, {away_display}{RESET}")
-                        home = team1_slug
-                        away = team2_slug
+                        home_slug = f"unknown-{home_id}"
+                    
+                    team_display_name = home_display if home_display else "Unknown Team"
+                    print(f"Adding new team to teams.json: {team_display_name} (diretta_id: {home_id})")
+                    new_team = {
+                        "name": team_display_name,
+                        "names": [team_display_name],
+                        "diretta_id": home_id,
+                        "diretta_name": '-'.join(home_slug.split('-')[:-1]),
+                        "elo": 200,
+                        "last_match_date": None,
+                        "last_match_id": None
+                    }
+                    teams_data.append(new_team)
+                
+                if not away_found:
+                    # Parse URL path to get the team slug for the away team
+                    path_parts = urlparse(match_url).path.strip('/').split('/')
+                    if len(path_parts) >= 4:
+                        # Find which slug contains the away_id
+                        team1_slug = path_parts[2]
+                        team2_slug = path_parts[3]
+                        
+                        if team1_slug.endswith(away_id):
+                            away_slug = team1_slug
+                        elif team2_slug.endswith(away_id):
+                            away_slug = team2_slug
+                        else:
+                            away_slug = f"unknown-{away_id}"
+                    else:
+                        away_slug = f"unknown-{away_id}"
+                    
+                    team_display_name = away_display if away_display else "Unknown Team"
+                    print(f"Adding new team to teams.json: {team_display_name} (diretta_id: {away_id})")
+                    new_team = {
+                        "name": team_display_name,
+                        "names": [team_display_name],
+                        "diretta_id": away_id,
+                        "diretta_name": '-'.join(away_slug.split('-')[:-1]),
+                        "elo": 200,
+                        "last_match_date": None,
+                        "last_match_id": None
+                    }
+                    teams_data.append(new_team)
+                
+                # Set home and away using the slugs
+                home = home_slug
+                away = away_slug
+                
             except Exception as e:
                 # Fallback to display names if URL parsing fails
                 print(f"{RED}Warning: Failed to parse team IDs from match URL: {match_url}{RESET}")
