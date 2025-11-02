@@ -291,8 +291,11 @@ def parse_team_results_diretta_page(soup, teams_data):
                 # print(f"Skipping match on {date_text} (home: {home}, away: {away}) - before stats last update {last_update_date}")
                 continue
 
+        # Generate match_id in format: <date>_<team1_diretta_id>_<team2_diretta_id>
+        match_id = f"{date_text}_{home_id}_{away_id}"
+
         results.append({
-            "match_id": mid or None,
+            "match_id": match_id,
             "date": date_text,
             "home": home,
             "away": away,
@@ -308,11 +311,6 @@ def update_results():
     Update the local data with any new results found.
     """
     print("Updating match results...")
-
-    # get current match ids from results.csv. If no results, start from 0
-    df_results = pd.read_csv(RESULTS_CSV)
-    current_match_id = df_results["match_id"].max() if not df_results.empty else 0
-    print(f"Current max match_id in results.csv: {current_match_id}")
 
     # load teams from JSON file
     print("Loading teams from teams.json...")
@@ -338,9 +336,7 @@ def update_results():
         parsed_results = parse_team_results_diretta_page(soup, teams_data)
         print(f"Found {len(parsed_results)} match entries on the team page.")
         for match in parsed_results:
-            match_id = current_match_id + 1
-            current_match_id += 1
-            data.append([match_id, match["date"], match["home"], match["away"], match["home_sets"], match["away_sets"], match["winner"]])
+            data.append([match["match_id"], match["date"], match["home"], match["away"], match["home_sets"], match["away_sets"], match["winner"]])
     
     print(f"Fetched {len(data)} new match results.")
 
@@ -393,18 +389,23 @@ def update_elo_ratings():
     df_results = pd.read_csv(RESULTS_CSV)
     print(f"Fetched {len(df_results)} match results.")
 
-    # update ELO ratings for teams whose last_match_id is less than the latest match_id in results.csv
+    # update ELO ratings for teams based on matches after their last_match_date
     for team in teams_data:
         if not team.get("diretta_name") or not team.get("diretta_id") or not team.get("id"):
             print(f"Skipping team {team.get('name')} missing diretta_name or id")
             continue
         team_id = team["id"]
-        last_match_id = team["last_match_id"]
+        last_match_date = team.get("last_match_date")
         team_elo = team["elo"]
 
-        # filter matches involving this team with match_id greater than last_match_id
-        df_team_matches = df_results[((df_results["team1"] == team_id) | (df_results["team2"] == team_id)) & (df_results["match_id"] > last_match_id)]
-        df_team_matches = df_team_matches.sort_values(by="match_id")
+        # filter matches involving this team with date greater than last_match_date
+        if last_match_date:
+            df_team_matches = df_results[((df_results["team1"] == team_id) | (df_results["team2"] == team_id)) & (df_results["date"] > last_match_date)]
+        else:
+            # If no last_match_date, process all matches for this team
+            df_team_matches = df_results[(df_results["team1"] == team_id) | (df_results["team2"] == team_id)]
+        
+        df_team_matches = df_team_matches.sort_values(by="date")
 
         for _, match in df_team_matches.iterrows():
             opponent_id = match["team2"] if match["team1"] == team_id else match["team1"]
@@ -421,23 +422,23 @@ def update_elo_ratings():
 
             print(f"Match ID: {match['match_id']}, Opponent: {opponent_id}, Result: {'Win' if result == 1 else 'Loss'}, New ELO: {team_elo:.2f}")
 
-            # update last_match_id
+            # update last_match_date and last_match_id
+            last_match_date = match["date"]
             last_match_id = match["match_id"]
 
         # update team's ELO, last_match_id, and last_match_date
         team["elo"] = team_elo
-        team["last_match_id"] = last_match_id
         if not df_team_matches.empty:
-            last_match_date = df_team_matches["last_match_date"].max()
-            team["last_match_date"] = last_match_date
+            team["last_match_date"] = df_team_matches["date"].max()
+            team["last_match_id"] = df_team_matches.loc[df_team_matches["date"] == df_team_matches["date"].max(), "match_id"].iloc[-1]
 
     # save updated teams.json
     print("Saving updated teams.json...")
-    with open("teams.json", "w") as teams_json:
-        json.dump(teams_data, teams_json, indent=4)
+    with open("teams.json", "w", encoding="utf-8") as teams_json:
+        json.dump(teams_data, teams_json, indent=4, ensure_ascii=False)
     print("teams.json updated.")
 
 
 if __name__ == "__main__":
     update_results()
-    update_elo_ratings()
+    # update_elo_ratings()
