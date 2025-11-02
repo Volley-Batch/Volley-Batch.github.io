@@ -409,7 +409,7 @@ def update_elo_ratings():
             last_match_id = match["match_id"]
 
         # update team's ELO, last_match_id, and last_match_date
-        team["elo"] = round(team_elo)
+        team["elo"] = team_elo
         team["last_match_id"] = last_match_id
         if not df_team_matches.empty:
             last_match_date = df_team_matches["last_match_date"].max()
