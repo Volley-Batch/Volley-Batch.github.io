@@ -52,6 +52,56 @@ body {
 .ranking-table .table thead th:last-child {
   border-top-right-radius: 12px;
 }
+
+/* Mobile Responsive Table */
+@media (max-width: 768px) {
+  .ranking-table {
+    padding: 0.5rem;
+  }
+  
+  .table {
+    min-width: 100%;
+    border: 0;
+  }
+  
+  .table thead {
+    display: none;
+  }
+  
+  .table tbody tr {
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0.75rem;
+  }
+  
+  .table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .table tbody td,
+  .table tbody th {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    text-align: right;
+    border: none;
+  }
+  
+  .table tbody td::before,
+  .table tbody th::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-align: left;
+    flex: 1;
+  }
+  
+  .table tbody th[data-label="#"]::before {
+    content: "Rank";
+  }
+}
 /* Navbar */
 .navbar-brand span {
   color: #E2D9F3;
