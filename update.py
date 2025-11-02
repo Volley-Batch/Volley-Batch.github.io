@@ -349,6 +349,8 @@ def update_results():
     df_new = pd.DataFrame(data, columns=["match_id", "date", "team1", "team2", "team1_sets", "team2_sets", "winner"])
     df_results = pd.read_csv(RESULTS_CSV)
     df_update = pd.concat([df_results, df_new]).drop_duplicates(["date", "team1", "team2"]).reset_index(drop=True)
+    # Sort by date
+    df_update = df_update.sort_values(by="date").reset_index(drop=True)
     df_update.to_csv(RESULTS_CSV, index=False)
     print("results.csv updated.")
     
