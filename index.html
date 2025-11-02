@@ -27,6 +27,8 @@
     rel="stylesheet"
   />
   <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
   <!-- Navbar -->
@@ -58,7 +60,7 @@
   <div class="container py-5 main">
     <div class="text-center mb-5">
       <h2 class="fw-bold"><img src="public/logo.png" alt="VolleyBatch Logo" width="80" height="80" class="d-inline-block align-text-center"><br>Italian Volleyball Rankings</h2>
-      <p>Last update: 29 October 2025, 20:22</p>
+      <p id="stats-last-update">Last update: 29 October 2025, 20:22</p>
     </div>
 
     <div class="ranking-table p-4">
@@ -77,26 +79,10 @@
         <tr>
           <th scope="row" data-label="#">1</th>
           <td data-label="Change"></td>
-          <td data-label="Team">Sir Safety Perugia</td>
-          <td data-label="Country">Italy</td>
-          <td data-label="Rating">1867</td>
-          <td data-label="+/-">+1</td>
-        </tr>
-        <tr>
-          <th scope="row" data-label="#">2</th>
-          <td data-label="Change">+2</td>
-          <td data-label="Team">Itas Trentino</td>
-          <td data-label="Country">Italy</td>
-          <td data-label="Rating">1820</td>
-          <td data-label="+/-">+12</td>
-        </tr>
-        <tr>
-          <th scope="row" data-label="#">3</th>
-          <td data-label="Change">-2</td>
-          <td data-label="Team">Allianz Milano</td>
-          <td data-label="Country">Italy</td>
-          <td data-label="Rating">1775</td>
-          <td data-label="+/-">-12</td>
+          <td data-label="Team">Loading...</td>
+          <td data-label="Country">Loading...</td>
+          <td data-label="Rating">Loading...</td>
+          <td data-label="+/-">Loading...</td>
         </tr>
       </tbody>
       </table>
