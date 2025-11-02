@@ -26,19 +26,15 @@ $(document).ready(function() {
         const $tbody = $('#ranking-table-body');
         $tbody.empty(); // clear existing rows if needed
 
-        teams.forEach((team, index) => {            
-            const change = '+10';
-            const rating = '1000';
-            const plusMinus = '+2.0';
+        // Sort teams by ELO rating in descending order
+        teams.sort((a, b) => b.elo - a.elo);
 
+        teams.forEach((team, index) => {
             const row = `
             <tr>
                 <th scope="row" data-label="#">${index + 1}</th>
-                <td data-label="Change">${change}</td>
                 <td data-label="Team">${team.name}</td>
-                <td data-label="Country">Italy</td>
-                <td data-label="Rating">${team.elo}</td>
-                <td data-label="+/-">${plusMinus}</td>
+                <td data-label="Rating">${parseFloat(team.elo).toFixed(1)}</td>
             </tr>
             `;
 
