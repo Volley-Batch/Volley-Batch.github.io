@@ -489,11 +489,18 @@ def update_elo_ratings():
     df_results = pd.read_csv(RESULTS_CSV)
     print(f"Fetched {len(df_results)} match results.")
 
-    # Track the last match processed
+    # Get the last processed match ID from stats.json
+    last_processed_match_id_from_stats = stats_data.get("last_match_id")
+    
+    # Track the last match processed in this run
     last_processed_match_id = None
     last_processed_date = None
+    
+    # Skip matches up to and including the last processed match
+    skip_until_found = last_processed_match_id_from_stats is not None
+    matches_processed = 0
 
-    # Recalculate ELO ratings using all matches after last update (i.e., using all matches after the last_match_id)
+    # Recalculate ELO ratings using all matches after last update
     for index, match in df_results.iterrows():
         match_id = match["match_id"]
         date = match["date"]
@@ -501,6 +508,13 @@ def update_elo_ratings():
         team2_slug = match["team2"]
         team1_sets = match["team1_sets"]
         team2_sets = match["team2_sets"]
+
+        # Skip matches up to and including the last processed match
+        if skip_until_found:
+            if match_id == last_processed_match_id_from_stats:
+                print(f"Found last processed match: {match_id}. Starting from next match...")
+                skip_until_found = False
+            continue
 
         # Find teams in teams_data
         team1 = next((t for t in teams_data if f"{t.get('diretta_name', 'unknown')}-{t.get('diretta_id', 'unknown')}" == team1_slug), None)
@@ -531,6 +545,9 @@ def update_elo_ratings():
         # Track last processed match
         last_processed_match_id = match_id
         last_processed_date = date
+        matches_processed += 1
+
+    print(f"{GREEN}Processed {matches_processed} new matches.{RESET}")
 
     # save updated teams.json
     print("Saving updated teams.json...")
@@ -541,7 +558,8 @@ def update_elo_ratings():
     # Update stats.json with last update info
     print("Updating stats.json...")
     stats_data["last_update"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
-    stats_data["last_match_id"] = last_processed_match_id
+    if last_processed_match_id:
+        stats_data["last_match_id"] = last_processed_match_id
     if last_processed_date:
         stats_data["last_match_date"] = last_processed_date
     
