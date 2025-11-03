@@ -1,0 +1,126 @@
+name,diretta_name,diretta_id,elo,id
+Trentino,trentino,CffxNRaH,475,ita_m_1
+Lube Civitanova,lube-civitanova,hxtqRVVu,500,ita_m_2
+Perugia,safety-perugia,EJS1lfOD,500,ita_m_3
+Verona,verona,OdjU5n0U,450,ita_m_4
+Milano,milano,2qsyTQW9,400,ita_m_5
+Padova,padova,Kfbd7lGB,300,ita_m_6
+Cuneo Volley,cuneo-volley,KCDVlA71,350,ita_m_7
+Modena,modena,6upmQkon,400,ita_m_8
+Piacenza,piacenza,IXfYN7pB,450,ita_m_9
+Monza,monza,vgreOTFb,350,ita_m_10
+Grottazzolina,grottazzolina,nNpxlbKs,300,ita_m_11
+Cisterna,cisterna,A7seqaBP,300,ita_m_12
+
+Jastrzebski,jastrzebski,lWD9RIPD,500,pol_m_1
+Projekt Warszawa,projekt-warszawa,zav73FX6,500,pol_m_2
+Zawiercie,zawiercie,WhuLLKZT,500,pol_m_3
+Lublin,lublin,Kv7iGxys,475,pol_m_4
+Kedzierzyn-Kozle,kedzierzyn-kozle,n7gpLG2s,450,pol_m_5
+Rzeszow,rzeszow,21Os7cYs,450,pol_m_6
+Belchatow,belchatow,SMCDQxuK,400,pol_m_7
+Norwid Czestochowa,norwid-czestochowa,EuwcJPKB,400,pol_m_8
+Olsztyn,olsztyn,pAof6Hml,350,pol_m_9
+Slepsk Suwalki,slepsk-suwalki,2kggPBWE,350,pol_m_10
+Gdansk,trefl-gdansk,Ao2IPdfQ,300,pol_m_11
+Cuprum Gorzow,cuprum-gorzow,K4CJzoda,300,pol_m_12
+Barkom,barkom,jm1YCctT,300,pol_m_13
+CHKS Chelm,chks-chelm,Um4hyFKf,300,
+
+Zenit Kazan,zenit-kazan,j7MxHCWI,500,rus_m_1
+Belgorod,belgorod,f3mgP9Ou,450,rus_m_2
+Dinamo Moscow,din-moscow,ba4VIY16,425,rus_m_3
+Novosibirsk,novosibirsk,tOoNOmgh,450,rus_m_4
+Zenit St. Petersburg,zenit-st-petersburg,S0nUsKBh,450,rus_m_5
+Dinamo LO,dinamo-lo,MB7pnxoH,375,rus_m_6
+Ufa,ufa,YgncOTwn,350,rus_m_7
+Krasnoyarsk,enisey-krasnoyarsk,nibTuLpg,350,rus_m_8
+Kemerovo,kemerovo,hbFonVBi,325,rus_m_9
+Novyi Urengoy,novyi-urengoy,K85RJEn0,300,rus_m_10
+Surgut region,surgut-region,KEpRN78b,250,rus_m_11
+Gorky N. Novgorod,gorky-n-novgorod,bw6M1XcM,250,rus_m_12
+Orenburg,neftjanik-orenburg,80aPt1Vn,250,rus_m_13
+Novokuybyshevsk,nova-novokuybyshevsk,hC0jKP7N,225,rus_m_14
+MGTU Moscow,mgtu-moscow,OSDwWRtI,200,rus_m_15
+Yaroslavl,yaroslavl,2wzWMRN4,300,
+
+Ziraat Bankasi,ziraat-bankasi,j7Id0yFb,450,tur_m_1
+Galatasaray,galatasaray,nLrfnIpa,400,tur_m_2
+Fenerbahce,fenerbahce,IgKl2cpn,400,tur_m_3
+Halkbank,halkbank,fuJ9F075,375,tur_m_4
+Spor Toto,spor-toto,xKjcGtha,350,tur_m_5
+Altekma,altekma,4nBz5M3U,350,tur_m_6
+Alanya Bld,alanya-bld,63ZVqQDr,375,tur_m_7
+Istanbul GSK,istanbul-gsk,6katO8rK,300,tur_m_8
+Bursa,bursa,WE61m6AE,250,tur_m_9
+Cizre Bld,cizre-bld,UqTvfVSl,250,tur_m_10
+Akkus Bld,akkus-bld,n5HM8Usr,200,tur_m_11
+Gaziantep Genclik,gaziantep-genclik,KloOcygm,200,tur_m_12
+Istanbul BB,istanbul-bb,CGJh1Hah,200,tur_m_13
+Gebze,gebze,pCto2hNE,200,
+
+Sada Cruzeiro,sada-cruzeiro,dhVmA0z9,450,bra_m_1
+Minas,minas-tenis-clube,byQlmwTe,375,bra_m_2
+Volei Renata,volei-renata,QqMi2DVn,400,bra_m_3
+Sesi,sesi-sp,dxBuFAus,350,bra_m_4
+Praia Clube,praia-clube,UBvJOjmK,350,bra_m_5
+Joinville,joinville,lSPIzHQL,325,bra_m_6
+Suzano Volei,suzano-volei,p298ASFI,325,bra_m_7
+Guarulhos,guarulhos,0pxnGFZT,250,bra_m_8
+Sao Jose dos Campos,sao-jose-dos-campos,xfxfdEus,250,bra_m_9
+Goias,goias,8d2aS61N,250,bra_m_10
+JF Volei,jf-volei,fsTxZQzt,200,bra_m_11
+Monte Carmelo,monte-carmelo,jgKi0Llj,200,
+
+BR Volleys,scc-berlin,nekXvmpb,400,ger_m_1
+Luneburg,luneburg,8pWgkzcP,350,ger_m_2
+Friedrichshafen,friedrichshafen,Qu1Ot9Fo,300,ger_m_3
+Herrsching,herrsching,vgw8MODe,300,ger_m_4
+Giesen,tsv-giesen-grizzlys,p4s7hUbp,300,ger_m_5
+Duren,duren,fLhuwREA,300,ger_m_6
+Freiburg,freiburg,O2FjXreG,275,ger_m_7
+Netzhoppers,netzhoppers,0bgyv7a4,225,
+Haching Munchen,haching-munchen,4WaSuTUi,200,
+Karlsruhe,karlsruhe,Gt32HqU2,200,
+Dachau,dachau,YDMwzoBc,200,
+Mitteldeutschland,mitteldeutschland,ING9tghN,200,
+Ludwigsburg,ludwigsburg,tAfYiVn1,200,
+Warnemunde,warnemunde,OWUbRW4I,200,
+VCO Berlin,vco-berlin,CWJyenai,150,
+
+Montpellier,montpellier,fq1HkrTS,375,fra_m_1
+Chaumont,chaumont,G06DuLNr,375,fra_m_2
+Tourcoing,tourcoing,lhL6wFCl,375,fra_m_3
+Tours,tours,WGABxZRf,400,fra_m_4
+Nizza,nice,O4MYx0BC,300,
+Poitiers,poitiers,WEyEpt6d,300,
+Toulouse,toulouse,6qbfvecr,300,
+Cannes,cannes,K66Eh4bG,250,
+Paris,paris,hOxAoMjj,250,
+Sète,sete,OhtH6NSF,200,
+Narbonne,narbonne,dhmqo2yp,200,
+St. Nazaire,st-nazaire,6FMIfxIE,200,
+Plessis Robinson,plessis-robinson,hb1Yps0L,200,
+Ajaccio,ajaccio,SxTPvMt0,200,
+
+Roeselare,roeselare,IVLyj26M,400,bel_m_1
+Lindemans Aalst,lindemans-aalst,nLjMYaqj,325,bel_m_2
+Haasrode Leuven,haasrode-leuven,hESei7a0,350,bel_m_3
+Achel,achel,6qoPxMTP,350,
+Menen,menen,n1fQwmN6,325,
+Maaseik,maaseik,2mFkvMLS,350,
+Waremme,waremme,0xhxfTGD,300,
+Guibertin,guibertin,tOgUx7xD,250,
+Gent,gent,pp1TByGo,250,
+Brabo Antwerp,brabo-antwerp,jJjkNZW4,200,
+
+Osaka Bluteon,osaka-bluteon,lY4LB6zN,350,jpn_m_1
+Suntory Sunbirds,suntory-sunbirds,SO3PAQkT,375,jpn_m_2
+Nagoya,nagoya,jTKINSpR,350,
+JTEKT,jtekt,p6Uf7OoP,325,
+Tokyo Great Bears,tokyo-great-bears,IaHhI75c,275,
+JT Thunders,jt-thunders,ny1bf4Dj,225,
+Osaka Sakai,osaka-sakai,fB5HCnLG,200,
+Toray Arrows,toray-arrows,xjw5DS5A,200,
+Nagano,vc-nagano,p2MjmR0c,200,
+Voreas Hokkaido,voreas-hokkaido,C2yq100p,175,
