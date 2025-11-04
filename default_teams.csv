@@ -72,6 +72,17 @@ Goias,goias,8d2aS61N,250,bra_m_10
 JF Volei,jf-volei,fsTxZQzt,200,bra_m_11
 Monte Carmelo,monte-carmelo,jgKi0Llj,200,
 
+Ciudad Voley,ciudad-buenos-aires,WMOb4cbO,400,arg_m_1
+Monteros,monteros,2PiJkt1T,350,arg_m_2
+San Lorenzo de Almagro,san-lorenzo-de-almagro,fwN0pTnE,300,arg_m_3
+Tucuman De Gimnasia,tucuman-de-gimnasia,bLGPsNgP,275,arg_m_4
+River Plate,river-plate,WbhEPYZa,275,arg_m_5
+Boca Juniors,boca-juniors,tWH7PMzF,250,
+Waiwen,waiwen,Y18ys6Rq,250,
+Banfield,banfield,2X47U2bO,200,
+UPCN,upcn-voley-club,Ik0y41qq,200,
+Velez Sarsfield,velez-sarsfield,W8QN2ml3,150,
+
 BR Volleys,scc-berlin,nekXvmpb,400,ger_m_1
 Luneburg,luneburg,8pWgkzcP,350,ger_m_2
 Friedrichshafen,friedrichshafen,Qu1Ot9Fo,300,ger_m_3
@@ -106,7 +117,7 @@ Ajaccio,ajaccio,SxTPvMt0,200,
 Roeselare,roeselare,IVLyj26M,400,bel_m_1
 Lindemans Aalst,lindemans-aalst,nLjMYaqj,325,bel_m_2
 Haasrode Leuven,haasrode-leuven,hESei7a0,350,bel_m_3
-Achel,achel,6qoPxMTP,350,
+Achel,achel,6qoPxMTP,350,bel_m_4
 Menen,menen,n1fQwmN6,325,
 Maaseik,maaseik,2mFkvMLS,350,
 Waremme,waremme,0xhxfTGD,300,
@@ -116,11 +127,95 @@ Brabo Antwerp,brabo-antwerp,jJjkNZW4,200,
 
 Osaka Bluteon,osaka-bluteon,lY4LB6zN,350,jpn_m_1
 Suntory Sunbirds,suntory-sunbirds,SO3PAQkT,375,jpn_m_2
-Nagoya,nagoya,jTKINSpR,350,
-JTEKT,jtekt,p6Uf7OoP,325,
+Nagoya,nagoya,jTKINSpR,350,jpn_m_3
+JTEKT,jtekt,p6Uf7OoP,325,jpn_m_4
 Tokyo Great Bears,tokyo-great-bears,IaHhI75c,275,
 JT Thunders,jt-thunders,ny1bf4Dj,225,
 Osaka Sakai,osaka-sakai,fB5HCnLG,200,
 Toray Arrows,toray-arrows,xjw5DS5A,200,
 Nagano,vc-nagano,p2MjmR0c,200,
 Voreas Hokkaido,voreas-hokkaido,C2yq100p,175,
+
+Al-Rayyan,al-rayyan,AoB7qja3,400,
+Al-Wakra,al-wakra,M5rJEDHs,300,
+Police Club,police-club,OEWgB2FI,300,
+Qatar Sports,qatar-sports,KWCILIpI,300,
+Al Arabi,al-arabi,n3wXoayh,300,
+Al-Ahli,al-ahli,GSsNDXWm,250,
+Al Gharafa,al-gharafa,OQnAVltR,200,
+Al Sadd,al-sadd,CzgbTYKj,150,
+Al Khor,al-khor,tdSt87W8,150,
+Al Shamal,al-shamal,bXMo7RoF,150,
+
+Shahrdari Urmia,shahrdari-urmia,GUMl8pkQ,325,
+Tabiat Eslamshahr,tabiat-eslamshahr,U5c8aIrG,325,
+Shahdab Yazd,shahdab-yazd,4vVpW8mC,350,
+Sirjan,sirjan,Mgp4x5JA,325,
+Mehregan Noor,mehregan-noor,AeiWZboJ,300,
+Paykan,paykan,URSyoJjb,250,
+Chadormalu,chadormalu,SjGBbxbM,250,
+Sanatgaran Omid,sanatgaran-omid,jiUIc2wQ,200,
+Gorgan,gorgan,dYSpTcKp,200,
+Saipa Tehran,saipa-tehran,p66fpscJ,200,
+Rafsanjan,rafsanjan,vgtJXwCT,150,
+Esteghlal Gonbad,esteghlal-gonbad,8W4ixsSa,150,
+Razin Polymer,razin-polymer,2Vc0zLdC,150,
+Sepahan,sepahan,h0TqDKAi,150,
+
+ACH Ljubljana,ach-volley-ljubljana,QHGgYVPI,400,
+Alpacem Kanal,alpacem-kanal,xhKcXkuP,300,
+Calcit Kamnik,calcit-kamnik,WfHkZBAC,250,
+OK Maribor,ok-maribor,dYSKZXu0,200,
+Krka,krka,EP58zEQg,200,
+Triglav Kranj,triglav-kranj,K264yfBm,200,
+Pomgrad,panvita-pomgrad,ETv6cNZn,150,
+Fuzinar,fuzinar,bR3c7mlj,150,
+
+Benfica,benfica,0QqJdHDe,400,
+Sporting CP,sporting-cp,2cmfnQzs,400,
+Academica de Espinho,academica-de-espinho,SCoBbwqq,300,
+Leixoes SC,leixoes-sc,INkEKK52,300,
+Castelo Maia GC,castelo-maia-gc,QcxiIx5R,250,
+Sporting de Espinho,sporting-de-espinho,0biVCGSl,200,
+Vitoria,vitoria-guimaraes,4rlrKbzF,200,
+Gondomar,gondomar,nH7SYtOH,200,
+Mamede,mamede,fsBzXKhU,200,
+Madalena,madalena,OM0kh4Ou,150,
+Clube K,clube-k,WATxDxSt,150,
+Santo Tirso,santo-tirso,vJ6U0DU9,150,
+
+Prague,vk-lvi-prague,lQ8hRNM8,400,
+Karlovarsko,karlovarsko,dt8ys2nr,350,
+Kladno,kladno,QNcK5khk,300,
+Ceske Budejovice,ceske-budejovice,Crdl5TM1,300,
+Benatky,benatky,zN4lS372,250,
+Liberec,liberec,AamoCaeE,250,
+Odolena Voda,odolena-voda,8WrL1m7J,250,
+Pribram,pribram,jZfh4mx8,225,
+Brno,brno,4MnkBJAK,225,
+Beskydy,beskydy,fcTcxt2D,200,
+Ostrava,ostrava,4EdO497e,150,
+Zlin,zlin,rDogAwQQ,150,
+Usti,usti,Ua2c3KU1,150,
+
+Panathinaikos,panathinaikos,d0FeiWQ6,400,
+Olympiakos,olympiakos,p84AgERs,350,
+AONS Milon,aons-milon,vsEJzDd7,325,
+PAOK,paok,vP40jjtD,300,
+Foinikas Syroy,foinikas-syroy,pKEFygs1,300,
+Kifisia,kifisia,SWgFhYtl,250,
+OFI,ofi,WKH8o7LM,250,
+Flisvos,flisvos,IsSMr354,200,
+AO Kalamata,ao-kalamata,INbKIAg9,150,
+Panionios,panionios,OKMYx0en,150,
+
+HAOK Mladost,haok-mladost,dIKtyvtP,325,
+Mladost Ribola Kastela,mladost-ribola-kastela,x8EXtuzk,300,
+Mok Mursa,mok-mursa-osijek,AwS2lscL,325,
+Dinamo Zagreb,mok-dinamo-zagreb,dnTIepBG,300,
+Centrometal,centrometal,h2H7m1CR,275,
+Marsonia,marsonia,QkgjjVsc,250,
+Rijeka,rijeka,v5SwRaz2,200,
+Varazdin,varazdin,OITYl3S8,200,
+Mok Rovinj,rovinj,Kf3HWvUg,150,
+Sisak,sisak,WnTbkNsF,150,
