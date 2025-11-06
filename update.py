@@ -149,9 +149,14 @@ def parse_team_results_diretta_page(soup, teams_data):
                 print(f"{RED}Warning: Could not parse date '{date_raw}': {e}{RESET}")
                 date_text = None
         
-        # Skip matches before stats last update
-        if not date_text or date_text < stats_data.get("last_update", "0000-00-00").split("T")[0]:
-            continue
+        # Skip matches before stats last update (with 2-day buffer)
+        if date_text and stats_data.get("last_update"):
+            last_update_date_str = stats_data["last_update"].split("T")[0]
+            last_update_date = datetime.strptime(last_update_date_str, "%Y-%m-%d")
+            match_date = datetime.strptime(date_text, "%Y-%m-%d")
+            days_diff = (last_update_date - match_date).days
+            if days_diff > 2:
+                continue
 
         # teams:
         home_el = div.select_one(".event__participant--home")
@@ -285,13 +290,6 @@ def parse_team_results_diretta_page(soup, teams_data):
         # Check if at least one team scored exactly 3 sets
         if home_sets != 3 and away_sets != 3:
             continue
-        
-        # Check if match date is valid and after stats last update
-        if date_text and stats_data.get("last_update"):
-            last_update_date = stats_data["last_update"].split("T")[0]
-            if date_text < last_update_date:
-                # print(f"Skipping match on {date_text} (home: {home}, away: {away}) - before stats last update {last_update_date}")
-                continue
 
         # Generate match_id in format: <date>_<team1_diretta_id>_<team2_diretta_id>
         match_id = f"{date_text}_{home_id}_{away_id}"
