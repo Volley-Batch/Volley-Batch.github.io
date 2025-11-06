@@ -1164,7 +1164,7 @@
         "last_match_id": "2025-10-30_WGABxZRf_WEyEpt6d"
     },
     {
-        "id": null,
+        "id": "fra_m_5",
         "name": "Nizza",
         "names": [
             "Nizza"
@@ -1176,7 +1176,7 @@
         "last_match_id": "2025-10-21_O4MYx0BC_lhL6wFCl"
     },
     {
-        "id": null,
+        "id": "fra_m_6",
         "name": "Poitiers",
         "names": [
             "Poitiers"
@@ -1188,16 +1188,16 @@
         "last_match_id": "2025-10-30_WGABxZRf_WEyEpt6d"
     },
     {
-        "id": null,
+        "id": "fra_m_7",
         "name": "Toulouse",
         "names": [
             "Toulouse"
         ],
         "diretta_id": "6qbfvecr",
         "diretta_name": "toulouse",
-        "elo": 300,
-        "last_match_date": "2025-10-01",
-        "last_match_id": null
+        "elo": 286.9014525134239,
+        "last_match_date": "2025-11-04",
+        "last_match_id": "2025-11-04_hOxAoMjj_6qbfvecr"
     },
     {
         "id": null,
@@ -1219,15 +1219,15 @@
         ],
         "diretta_id": "hOxAoMjj",
         "diretta_name": "paris",
-        "elo": 245.27123467739645,
-        "last_match_date": "2025-10-24",
-        "last_match_id": "2025-10-24_lhL6wFCl_hOxAoMjj"
+        "elo": 258.36978216397256,
+        "last_match_date": "2025-11-04",
+        "last_match_id": "2025-11-04_hOxAoMjj_6qbfvecr"
     },
     {
         "id": null,
-        "name": "SÃƒÂ¨te",
+        "name": "Arago de Sète",
         "names": [
-            "SÃƒÂ¨te"
+            "Arago de Sète"
         ],
         "diretta_id": "OhtH6NSF",
         "diretta_name": "sete",
@@ -1332,7 +1332,7 @@
         "last_match_id": "2025-11-05_6qoPxMTP_n1fQwmN6"
     },
     {
-        "id": null,
+        "id": "bel_m_5",
         "name": "Menen",
         "names": [
             "Menen"
@@ -1356,16 +1356,16 @@
         "last_match_id": "2025-11-05_2mFkvMLS_hESei7a0"
     },
     {
-        "id": null,
+        "id": "bel_m_6",
         "name": "Waremme",
         "names": [
             "Waremme"
         ],
         "diretta_id": "0xhxfTGD",
         "diretta_name": "waremme",
-        "elo": 286.05873445362187,
-        "last_match_date": "2025-10-29",
-        "last_match_id": "2025-10-29_hESei7a0_0xhxfTGD"
+        "elo": 292.9059381794547,
+        "last_match_date": "2025-11-05",
+        "last_match_id": "2025-11-05_OOG1zQff_0xhxfTGD"
     },
     {
         "id": null,
@@ -1452,7 +1452,7 @@
         "last_match_id": "2025-11-03_p6Uf7OoP_xjw5DS5A"
     },
     {
-        "id": null,
+        "id": "jpn_m_5",
         "name": "Tokyo Great Bears",
         "names": [
             "Tokyo Great Bears"
@@ -1524,7 +1524,7 @@
         "last_match_id": "2025-11-02_lY4LB6zN_C2yq100p"
     },
     {
-        "id": null,
+        "id": "qat_m_1",
         "name": "Al-Rayyan",
         "names": [
             "Al-Rayyan"
@@ -1536,7 +1536,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "qat_m_2",
         "name": "Al-Wakra",
         "names": [
             "Al-Wakra"
@@ -1548,7 +1548,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "qat_m_3",
         "name": "Police Club",
         "names": [
             "Police Club"
@@ -1560,7 +1560,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "qat_m_4",
         "name": "Qatar Sports",
         "names": [
             "Qatar Sports"
@@ -1572,7 +1572,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "qat_m_5",
         "name": "Al Arabi",
         "names": [
             "Al Arabi"
@@ -1644,7 +1644,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "irn_m_1",
         "name": "Shahrdari Urmia",
         "names": [
             "Shahrdari Urmia"
@@ -1656,7 +1656,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "irn_m_2",
         "name": "Tabiat Eslamshahr",
         "names": [
             "Tabiat Eslamshahr"
@@ -1668,7 +1668,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "irn_m_3",
         "name": "Shahdab Yazd",
         "names": [
             "Shahdab Yazd"
@@ -1680,7 +1680,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "irn_m_4",
         "name": "Sirjan",
         "names": [
             "Sirjan"
@@ -1692,7 +1692,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "irn_m_5",
         "name": "Mehregan Noor",
         "names": [
             "Mehregan Noor"
@@ -1704,7 +1704,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "irn_m_6",
         "name": "Paykan",
         "names": [
             "Paykan"
@@ -1716,7 +1716,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "irn_m_7",
         "name": "Chadormalu",
         "names": [
             "Chadormalu"
@@ -1812,19 +1812,19 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "svn_m_1",
         "name": "ACH Ljubljana",
         "names": [
             "ACH Ljubljana"
         ],
         "diretta_id": "QHGgYVPI",
         "diretta_name": "ach-volley-ljubljana",
-        "elo": 427.41590348268966,
-        "last_match_date": "2025-10-12",
-        "last_match_id": "2025-10-12_QHGgYVPI_nLrfnIpa"
+        "elo": 406.9596939413979,
+        "last_match_date": "2025-11-04",
+        "last_match_id": "2025-11-04_O6ac1n9H_QHGgYVPI"
     },
     {
-        "id": null,
+        "id": "svn_m_2",
         "name": "Alpacem Kanal",
         "names": [
             "Alpacem Kanal"
@@ -1836,7 +1836,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "svn_m_3",
         "name": "Calcit Kamnik",
         "names": [
             "Calcit Kamnik"
@@ -1848,16 +1848,16 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "svn_m_4",
         "name": "OK Maribor",
         "names": [
             "OK Maribor"
         ],
         "diretta_id": "dYSKZXu0",
         "diretta_name": "ok-maribor",
-        "elo": 200,
-        "last_match_date": "2025-10-01",
-        "last_match_id": null
+        "elo": 181.6856412694437,
+        "last_match_date": "2025-11-05",
+        "last_match_id": "2025-11-05_dfQqb0kJ_dYSKZXu0"
     },
     {
         "id": null,
@@ -1908,7 +1908,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "prt_m_1",
         "name": "Benfica",
         "names": [
             "Benfica"
@@ -1920,7 +1920,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "prt_m_2",
         "name": "Sporting CP",
         "names": [
             "Sporting CP"
@@ -1932,7 +1932,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "prt_m_3",
         "name": "Academica de Espinho",
         "names": [
             "Academica de Espinho"
@@ -1944,7 +1944,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "prt_m_4",
         "name": "Leixoes SC",
         "names": [
             "Leixoes SC"
@@ -1956,7 +1956,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "prt_m_5",
         "name": "Castelo Maia GC",
         "names": [
             "Castelo Maia GC"
@@ -2052,7 +2052,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "cze_m_1",
         "name": "Prague",
         "names": [
             "Prague"
@@ -2064,7 +2064,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "cze_m_2",
         "name": "Karlovarsko",
         "names": [
             "Karlovarsko"
@@ -2076,7 +2076,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "cze_m_3",
         "name": "Kladno",
         "names": [
             "Kladno"
@@ -2088,7 +2088,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "cze_m_4",
         "name": "Ceske Budejovice",
         "names": [
             "Ceske Budejovice"
@@ -2208,7 +2208,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "gre_m_1",
         "name": "Panathinaikos",
         "names": [
             "Panathinaikos"
@@ -2220,7 +2220,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "gre_m_2",
         "name": "Olympiakos",
         "names": [
             "Olympiakos"
@@ -2232,7 +2232,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "gre_m_3",
         "name": "AONS Milon",
         "names": [
             "AONS Milon"
@@ -2244,7 +2244,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "gre_m_4",
         "name": "PAOK",
         "names": [
             "PAOK"
@@ -2256,7 +2256,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "gre_m_5",
         "name": "Foinikas Syroy",
         "names": [
             "Foinikas Syroy"
@@ -2328,7 +2328,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "hrv_m_1",
         "name": "HAOK Mladost",
         "names": [
             "HAOK Mladost"
@@ -2340,7 +2340,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "hrv_m_2",
         "name": "Mladost Ribola Kastela",
         "names": [
             "Mladost Ribola Kastela"
@@ -2352,19 +2352,19 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "hrv_m_3",
         "name": "Mok Mursa",
         "names": [
             "Mok Mursa"
         ],
         "diretta_id": "AwS2lscL",
         "diretta_name": "mok-mursa-osijek",
-        "elo": 325,
-        "last_match_date": "2025-10-01",
-        "last_match_id": null
+        "elo": 311.0379957741225,
+        "last_match_date": "2025-11-04",
+        "last_match_id": "2025-11-04_AwS2lscL_4GBklWR2"
     },
     {
-        "id": null,
+        "id": "hrv_m_4",
         "name": "Dinamo Zagreb",
         "names": [
             "Dinamo Zagreb"
@@ -2376,7 +2376,7 @@
         "last_match_id": null
     },
     {
-        "id": null,
+        "id": "hrv_m_5",
         "name": "Centrometal",
         "names": [
             "Centrometal"
@@ -2468,5 +2468,60 @@
         "elo": 198.10825599498057,
         "last_match_date": "2025-10-26",
         "last_match_id": "2025-10-26_xYzM4rBF_IVLyj26M"
+    },
+    {
+        "name": "Sint-Gillis-Waas",
+        "names": [
+            "Sint-Gillis-Waas"
+        ],
+        "diretta_id": "OOG1zQff",
+        "diretta_name": "sint-gillis-waas",
+        "elo": 193.15279627416714,
+        "last_match_date": "2025-11-05",
+        "last_match_id": "2025-11-05_OOG1zQff_0xhxfTGD"
+    },
+    {
+        "name": "Dinamo Bucuresti",
+        "names": [
+            "Dinamo Bucuresti"
+        ],
+        "diretta_id": "O6ac1n9H",
+        "diretta_name": "dinamo-bucuresti",
+        "elo": 220.45620954129174,
+        "last_match_date": "2025-11-04",
+        "last_match_id": "2025-11-04_O6ac1n9H_QHGgYVPI"
+    },
+    {
+        "name": "Podgorica",
+        "names": [
+            "Podgorica"
+        ],
+        "diretta_id": "dfQqb0kJ",
+        "diretta_name": "podgorica",
+        "elo": 212.0643587305563,
+        "last_match_date": "2025-11-05",
+        "last_match_id": "2025-11-05_dfQqb0kJ_dYSKZXu0"
+    },
+    {
+        "name": "Budvanska Rivijera",
+        "names": [
+            "Budvanska Rivijera"
+        ],
+        "diretta_id": "fBH6DOzl",
+        "diretta_name": "budvanska-rivijera",
+        "elo": 206.25,
+        "last_match_date": "2025-11-04",
+        "last_match_id": "2025-11-04_fBH6DOzl_dYSKZXu0"
+    },
+    {
+        "name": "Levski Sofia",
+        "names": [
+            "Levski Sofia"
+        ],
+        "diretta_id": "4GBklWR2",
+        "diretta_name": "levski-sofia",
+        "elo": 213.9620042258775,
+        "last_match_date": "2025-11-04",
+        "last_match_id": "2025-11-04_AwS2lscL_4GBklWR2"
     }
 ]
