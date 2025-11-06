@@ -153,7 +153,11 @@ def parse_team_results_diretta_page(soup, teams_data):
         if date_text and stats_data.get("last_update"):
             last_update_date_str = stats_data["last_update"].split("T")[0]
             last_update_date = datetime.strptime(last_update_date_str, "%Y-%m-%d")
-            match_date = datetime.strptime(date_text, "%Y-%m-%d")
+            try:
+                match_date = datetime.strptime(date_text, "%Y-%m-%d")
+            except Exception:
+                print(f"{RED}Warning: Could not parse match date '{date_text}'{RESET}")
+                continue
             days_diff = (last_update_date - match_date).days
             if days_diff > 2:
                 continue
