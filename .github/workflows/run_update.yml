@@ -46,9 +46,10 @@ jobs:
 
           git add results.csv
           git add teams.json
+          git add stats.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update results.csv and teams.json [auto]"
+            git commit -m "Update results, teams, stats [auto]"
             git push
           fi
