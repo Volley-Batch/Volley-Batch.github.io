@@ -451,9 +451,9 @@
         ],
         "diretta_id": "bw6M1XcM",
         "diretta_name": "gorky-n-novgorod",
-        "elo": 273.60000251961935,
-        "last_match_date": "2025-11-23",
-        "last_match_id": "2025-11-23_MB7pnxoH_bw6M1XcM"
+        "elo": 266.8213054206876,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_bw6M1XcM_hC0jKP7N"
     },
     {
         "id": "rus_m_13",
@@ -475,9 +475,9 @@
         ],
         "diretta_id": "hC0jKP7N",
         "diretta_name": "nova-novokuybyshevsk",
-        "elo": 266.01380169387335,
-        "last_match_date": "2025-11-19",
-        "last_match_id": "2025-11-19_hC0jKP7N_ba4VIY16"
+        "elo": 272.7924987928051,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_bw6M1XcM_hC0jKP7N"
     },
     {
         "id": "rus_m_15",
@@ -691,9 +691,9 @@
         ],
         "diretta_id": "byQlmwTe",
         "diretta_name": "minas-tenis-clube",
-        "elo": 338.7491607236141,
-        "last_match_date": "2025-11-21",
-        "last_match_id": "2025-11-21_UBvJOjmK_byQlmwTe"
+        "elo": 331.0463550317961,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_byQlmwTe_QqMi2DVn"
     },
     {
         "id": "bra_m_3",
@@ -703,9 +703,9 @@
         ],
         "diretta_id": "QqMi2DVn",
         "diretta_name": "volei-renata",
-        "elo": 410.48806644287083,
-        "last_match_date": "2025-11-23",
-        "last_match_id": "2025-11-23_QqMi2DVn_dxBuFAus"
+        "elo": 418.19087213468885,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_byQlmwTe_QqMi2DVn"
     },
     {
         "id": "bra_m_4",
@@ -1171,9 +1171,9 @@
         ],
         "diretta_id": "O4MYx0BC",
         "diretta_name": "nice",
-        "elo": 292.83002063028476,
-        "last_match_date": "2025-11-24",
-        "last_match_id": "2025-11-24_hb1Yps0L_O4MYx0BC"
+        "elo": 280.84662949564375,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_O4MYx0BC_K66Eh4bG"
     },
     {
         "id": "fra_m_6",
@@ -1207,9 +1207,9 @@
         ],
         "diretta_id": "K66Eh4bG",
         "diretta_name": "cannes",
-        "elo": 254.97655497558134,
-        "last_match_date": "2025-11-25",
-        "last_match_id": "2025-11-25_K66Eh4bG_WEyEpt6d"
+        "elo": 266.95994611022235,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_O4MYx0BC_K66Eh4bG"
     },
     {
         "id": null,
@@ -1447,9 +1447,9 @@
         ],
         "diretta_id": "p6Uf7OoP",
         "diretta_name": "jtekt",
-        "elo": 306.1005859885827,
-        "last_match_date": "2025-11-23",
-        "last_match_id": "2025-11-23_p2MjmR0c_p6Uf7OoP"
+        "elo": 308.44547747610085,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_fB5HCnLG_p6Uf7OoP"
     },
     {
         "id": "jpn_m_5",
@@ -1483,9 +1483,9 @@
         ],
         "diretta_id": "fB5HCnLG",
         "diretta_name": "osaka-sakai",
-        "elo": 194.90122112356264,
-        "last_match_date": "2025-11-23",
-        "last_match_id": "2025-11-23_fB5HCnLG_lY4LB6zN"
+        "elo": 192.55632963604447,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_fB5HCnLG_p6Uf7OoP"
     },
     {
         "id": null,
@@ -1855,9 +1855,9 @@
         ],
         "diretta_id": "dYSKZXu0",
         "diretta_name": "ok-maribor",
-        "elo": 219.23472369901125,
-        "last_match_date": "2025-11-26",
-        "last_match_id": "2025-11-26_vL6yJN5q_dYSKZXu0"
+        "elo": 230.39767356789417,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_t2pwb04d_dYSKZXu0"
     },
     {
         "id": null,
@@ -2083,9 +2083,9 @@
         ],
         "diretta_id": "QNcK5khk",
         "diretta_name": "kladno",
-        "elo": 299.3035313777974,
-        "last_match_date": "2025-11-22",
-        "last_match_id": "2025-11-22_QNcK5khk_zN4lS372"
+        "elo": 286.1344040722921,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_zN4lS372_QNcK5khk"
     },
     {
         "id": "cze_m_4",
@@ -2107,9 +2107,9 @@
         ],
         "diretta_id": "zN4lS372",
         "diretta_name": "benatky",
-        "elo": 243.48286321904865,
-        "last_match_date": "2025-11-22",
-        "last_match_id": "2025-11-22_QNcK5khk_zN4lS372"
+        "elo": 256.6519905245539,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_zN4lS372_QNcK5khk"
     },
     {
         "id": null,
@@ -2655,5 +2655,16 @@
         "elo": 211.50145493898967,
         "last_match_date": "2025-11-26",
         "last_match_id": "2025-11-26_vL6yJN5q_dYSKZXu0"
+    },
+    {
+        "name": "Lubnik",
+        "names": [
+            "Lubnik"
+        ],
+        "diretta_id": "t2pwb04d",
+        "diretta_name": "lubnik",
+        "elo": 188.83705013111708,
+        "last_match_date": "2025-11-27",
+        "last_match_id": "2025-11-27_t2pwb04d_dYSKZXu0"
     }
 ]
