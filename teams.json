@@ -2514,17 +2514,6 @@
         "last_match_id": "2025-11-04_fBH6DOzl_dYSKZXu0"
     },
     {
-        "name": "Levski Sofia",
-        "names": [
-            "Levski Sofia"
-        ],
-        "diretta_id": "4GBklWR2",
-        "diretta_name": "levski-sofia",
-        "elo": 233.72678513371767,
-        "last_match_date": "2025-11-12",
-        "last_match_id": "2025-11-12_4GBklWR2_AwS2lscL"
-    },
-    {
         "name": "MAV Elore SC",
         "names": [
             "MAV Elore SC"
@@ -2624,17 +2613,6 @@
         "last_match_id": "2025-11-19_dIKtyvtP_2qthufQB"
     },
     {
-        "name": "Stella Rossa",
-        "names": [
-            "Stella Rossa"
-        ],
-        "diretta_id": "Qc6DYNgQ",
-        "diretta_name": "crvena-zvezda",
-        "elo": 230.97817992657045,
-        "last_match_date": "2025-11-20",
-        "last_match_id": "2025-11-20_Qc6DYNgQ_x8EXtuzk"
-    },
-    {
         "name": "Radnicki",
         "names": [
             "Radnicki"
@@ -2666,5 +2644,281 @@
         "elo": 188.83705013111708,
         "last_match_date": "2025-11-27",
         "last_match_id": "2025-11-27_t2pwb04d_dYSKZXu0"
+    },
+    {
+        "id": "bul_m_1",
+        "name": "Levski Sofia",
+        "names": [
+            "Levski Sofia"
+        ],
+        "diretta_id": "4GBklWR2",
+        "diretta_name": "levski-sofia",
+        "elo": 375,
+        "last_match_date": "2025-11-12",
+        "last_match_id": "2025-11-12_4GBklWR2_AwS2lscL"
+    },
+    {
+        "id": "bul_m_2",
+        "name": "Lokomotiv Avia",
+        "names": [
+            "Lokomotiv Avia"
+        ],
+        "diretta_id": "4xkr03GF",
+        "diretta_name": "lokomotiv-avia",
+        "elo": 350,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": "bul_m_3",
+        "name": "Neftohimic Burgas",
+        "names": [
+            "Neftohimic Burgas"
+        ],
+        "diretta_id": "E57nSl5q",
+        "diretta_name": "neftohimic-burgas",
+        "elo": 325,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": "bul_m_4",
+        "name": "Beroe",
+        "names": [
+            "Beroe"
+        ],
+        "diretta_id": "2DuWJUdA",
+        "diretta_name": "beroe",
+        "elo": 275,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": "bul_m_5",
+        "name": "CSKA Sofia",
+        "names": [
+            "CSKA Sofia"
+        ],
+        "diretta_id": "nJ5fQSZe",
+        "diretta_name": "cska-sofia",
+        "elo": 275,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Montana",
+        "names": [
+            "Montana"
+        ],
+        "diretta_id": "xhWqqcLA",
+        "diretta_name": "montana",
+        "elo": 250,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Deya Volley",
+        "names": [
+            "Deya Volley"
+        ],
+        "diretta_id": "Ee7nI8RM",
+        "diretta_name": "deya-volley",
+        "elo": 225,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Cherno More",
+        "names": [
+            "Cherno More"
+        ],
+        "diretta_id": "GCE2V492",
+        "diretta_name": "cherno-more-bask",
+        "elo": 200,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Pirin Razlog",
+        "names": [
+            "Pirin Razlog"
+        ],
+        "diretta_id": "rVWupw64",
+        "diretta_name": "pirin-razlog",
+        "elo": 200,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Dunav",
+        "names": [
+            "Dunav"
+        ],
+        "diretta_id": "82EoXjbt",
+        "diretta_name": "dunav",
+        "elo": 175,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Slaviya Sofia",
+        "names": [
+            "Slaviya Sofia"
+        ],
+        "diretta_id": "K0gdrHzH",
+        "diretta_name": "slaviya-sofia",
+        "elo": 150,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": "srb_m_1",
+        "name": "Radnicki",
+        "names": [
+            "Radnicki"
+        ],
+        "diretta_id": "UVC4zpPD",
+        "diretta_name": "radnicki",
+        "elo": 350,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": "srb_m_2",
+        "name": "Vojvodina",
+        "names": [
+            "Vojvodina"
+        ],
+        "diretta_id": "S6huUs2s",
+        "diretta_name": "vojvodina",
+        "elo": 325,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": "srb_m_3",
+        "name": "Stella Rossa",
+        "names": [
+            "Stella Rossa"
+        ],
+        "diretta_id": "Qc6DYNgQ",
+        "diretta_name": "crvena-zvezda",
+        "elo": 325,
+        "last_match_date": "2025-11-20",
+        "last_match_id": "2025-11-20_Qc6DYNgQ_x8EXtuzk"
+    },
+    {
+        "id": "srb_m_4",
+        "name": "Dubocica",
+        "names": [
+            "Dubocica"
+        ],
+        "diretta_id": "dITwbUQJ",
+        "diretta_name": "dubocica",
+        "elo": 300,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": "srb_m_5",
+        "name": "Karadjordje Topola",
+        "names": [
+            "Karadjordje Topola"
+        ],
+        "diretta_id": "ji1tIHr9",
+        "diretta_name": "karadjordje-topola",
+        "elo": 300,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Partizan",
+        "names": [
+            "Partizan"
+        ],
+        "diretta_id": "rZG8Z3vK",
+        "diretta_name": "partizan",
+        "elo": 250,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Nis",
+        "names": [
+            "Nis"
+        ],
+        "diretta_id": "fmrgvrV4",
+        "diretta_name": "nis",
+        "elo": 250,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Subotica",
+        "names": [
+            "Subotica"
+        ],
+        "diretta_id": "4tYajyGJ",
+        "diretta_name": "subotica",
+        "elo": 250,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Mladi Radnik",
+        "names": [
+            "Mladi Radnik"
+        ],
+        "diretta_id": "Cr8QRa16",
+        "diretta_name": "mladi-radnik",
+        "elo": 200,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Takovo",
+        "names": [
+            "Takovo"
+        ],
+        "diretta_id": "vwq5XM2q",
+        "diretta_name": "takovo",
+        "elo": 200,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "Jedinstvo S.P.",
+        "names": [
+            "Jedinstvo S.P."
+        ],
+        "diretta_id": "Eaf7VZIR",
+        "diretta_name": "jedinstvo-s-p",
+        "elo": 150,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
+    },
+    {
+        "id": null,
+        "name": "VGSK Veliko Gradiste",
+        "names": [
+            "VGSK Veliko Gradiste"
+        ],
+        "diretta_id": "zRmw3x9t",
+        "diretta_name": "vgsk-veliko-gradiste",
+        "elo": 150,
+        "last_match_date": "2025-10-01",
+        "last_match_id": null
     }
 ]
