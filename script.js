@@ -26,14 +26,45 @@ $(document).ready(function() {
         const $tbody = $('#ranking-table-body');
         $tbody.empty(); // clear existing rows if needed
 
+        // Map country codes to flag emojis
+        const countryFlags = {
+            'ita': '🇮🇹',
+            'pol': '🇵🇱',
+            'rus': '🇷🇺',
+            'tur': '🇹🇷',
+            'bra': '🇧🇷',
+            'arg': '🇦🇷',
+            'ger': '🇩🇪',
+            'fra': '🇫🇷',
+            'bel': '🇧🇪',
+            'jpn': '🇯🇵',
+            'qat': '🇶🇦',
+            'irn': '🇮🇷',
+            'svn': '🇸🇮',
+            'prt': '🇵🇹',
+            'cze': '🇨🇿',
+            'gre': '🇬🇷',
+            'hrv': '🇭🇷',
+            'bul': '🇧🇬',
+            'srb': '🇷🇸'
+        };
+
+        // Function to get country flag from team id
+        function getCountryFlag(teamId) {
+            if (!teamId) return '';
+            const countryCode = teamId.split('_')[0];
+            return countryFlags[countryCode] ? countryFlags[countryCode] + ' ' : '';
+        }
+
         // Sort teams by ELO rating in descending order
         teams.sort((a, b) => b.elo - a.elo);
 
         teams.forEach((team, index) => {
+            const flag = getCountryFlag(team.id);
             const row = `
             <tr>
                 <th scope="row" data-label="#">${index + 1}</th>
-                <td data-label="Team">${team.name}</td>
+                <td data-label="Team">${flag}${team.name}</td>
                 <td data-label="Rating">${parseFloat(team.elo).toFixed(1)}</td>
             </tr>
             `;
