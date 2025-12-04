@@ -58,13 +58,18 @@ def get_home_away_from_match_page(match_url):
     try:
         soup = get_soup(match_url)
         
-        # Find the home team div: <div class="duelParticipant__home ...">
-        home_div = soup.select_one('div[class*="duelParticipant__home"]')
-        # Find the away team div: <div class="duelParticipant__away ...">
-        away_div = soup.select_one('div[class*="duelParticipant__away"]')
-        
         home_id = None
         away_id = None
+        
+        # Try old format first: <div class="duelParticipant__home ...">
+        home_div = soup.select_one('div[class*="duelParticipant__home"]')
+        away_div = soup.select_one('div[class*="duelParticipant__away"]')
+        
+        # If old format not found, try new format: <div class="smh__participantName smh__home">
+        if not home_div:
+            home_div = soup.select_one('div.smh__home')
+        if not away_div:
+            away_div = soup.select_one('div.smh__away')
         
         if home_div:
             # Find the link inside: <a href="/squadra/trentino/CffxNRaH/" ...>
@@ -102,7 +107,6 @@ def parse_team_results_diretta_page(soup, teams_data):
 
     # match containers: class contains event__match
     for div in soup.select('div[class*="event__match"]'):
-        mid = div.get("id")  # e.g., g_12_2oxAyMp4
         # link to match details is in <a class="eventRowLink" href="...">
         a = div.select_one("a.eventRowLink")
         match_url = None
@@ -144,6 +148,7 @@ def parse_team_results_diretta_page(soup, teams_data):
                         date_text = match_date.strftime("%Y-%m-%d")
                     except ValueError:
                         # Invalid date (e.g., Feb 30), skip
+                        print(f"{RED}Warning: Invalid date encountered: {date_raw}{RESET}")
                         date_text = None
             except Exception as e:
                 print(f"{RED}Warning: Could not parse date '{date_raw}': {e}{RESET}")
