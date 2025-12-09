@@ -67,9 +67,9 @@
         ],
         "diretta_id": "Kfbd7lGB",
         "diretta_name": "padova",
-        "elo": 318.52706063732995,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_IXfYN7pB_Kfbd7lGB"
+        "elo": 310.67329907672035,
+        "last_match_date": "2025-12-08",
+        "last_match_id": "2025-12-08_Kfbd7lGB_vgreOTFb"
     },
     {
         "id": "ita_m_7",
@@ -115,9 +115,9 @@
         ],
         "diretta_id": "vgreOTFb",
         "diretta_name": "monza",
-        "elo": 340.4313395287099,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_vgreOTFb_hxtqRVVu"
+        "elo": 348.2851010893195,
+        "last_match_date": "2025-12-08",
+        "last_match_id": "2025-12-08_Kfbd7lGB_vgreOTFb"
     },
     {
         "id": "ita_m_11",
@@ -679,9 +679,9 @@
         ],
         "diretta_id": "dhVmA0z9",
         "diretta_name": "sada-cruzeiro",
-        "elo": 452.12123496814115,
-        "last_match_date": "2025-12-02",
-        "last_match_id": "2025-12-02_dhVmA0z9_UBvJOjmK"
+        "elo": 454.8121880526215,
+        "last_match_date": "2025-12-08",
+        "last_match_id": "2025-12-08_0pxnGFZT_dhVmA0z9"
     },
     {
         "id": "bra_m_2",
@@ -751,9 +751,9 @@
         ],
         "diretta_id": "p298ASFI",
         "diretta_name": "suzano-volei",
-        "elo": 319.5628901511456,
-        "last_match_date": "2025-12-01",
-        "last_match_id": "2025-12-01_QqMi2DVn_p298ASFI"
+        "elo": 323.3777764534842,
+        "last_match_date": "2025-12-08",
+        "last_match_id": "2025-12-08_fsTxZQzt_p298ASFI"
     },
     {
         "id": "bra_m_8",
@@ -763,9 +763,9 @@
         ],
         "diretta_id": "0pxnGFZT",
         "diretta_name": "guarulhos",
-        "elo": 274.2917983315775,
-        "last_match_date": "2025-11-30",
-        "last_match_id": "2025-11-30_0pxnGFZT_xfxfdEus"
+        "elo": 271.6008452470972,
+        "last_match_date": "2025-12-08",
+        "last_match_id": "2025-12-08_0pxnGFZT_dhVmA0z9"
     },
     {
         "id": "bra_m_9",
@@ -799,9 +799,9 @@
         ],
         "diretta_id": "fsTxZQzt",
         "diretta_name": "jf-volei",
-        "elo": 172.54433920828458,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_fsTxZQzt_byQlmwTe"
+        "elo": 168.72945290594598,
+        "last_match_date": "2025-12-08",
+        "last_match_id": "2025-12-08_fsTxZQzt_p298ASFI"
     },
     {
         "id": null,
@@ -847,9 +847,9 @@
         ],
         "diretta_id": "fwN0pTnE",
         "diretta_name": "san-lorenzo-de-almagro",
-        "elo": 292.80101840499657,
-        "last_match_date": "2025-12-05",
-        "last_match_id": "2025-12-05_fwN0pTnE_bLGPsNgP"
+        "elo": 298.8151112860001,
+        "last_match_date": "2025-12-08",
+        "last_match_id": "2025-12-08_Ik0y41qq_fwN0pTnE"
     },
     {
         "id": "arg_m_4",
@@ -919,9 +919,9 @@
         ],
         "diretta_id": "Ik0y41qq",
         "diretta_name": "upcn-voley-club",
-        "elo": 243.6334333231949,
-        "last_match_date": "2025-11-23",
-        "last_match_id": "2025-11-23_2PiJkt1T_Ik0y41qq"
+        "elo": 237.61934044219137,
+        "last_match_date": "2025-12-08",
+        "last_match_id": "2025-12-08_Ik0y41qq_fwN0pTnE"
     },
     {
         "id": null,
@@ -1555,9 +1555,9 @@
         ],
         "diretta_id": "OEWgB2FI",
         "diretta_name": "police-club",
-        "elo": 314.9977268872366,
-        "last_match_date": "2025-12-05",
-        "last_match_id": "2025-12-05_OEWgB2FI_bXMo7RoF"
+        "elo": 324.16666014057705,
+        "last_match_date": "2025-12-08",
+        "last_match_id": "2025-12-08_OEWgB2FI_KWCILIpI"
     },
     {
         "id": "qat_m_4",
@@ -1567,9 +1567,9 @@
         ],
         "diretta_id": "KWCILIpI",
         "diretta_name": "qatar-sports",
-        "elo": 312.0420975442885,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_KWCILIpI_n3wXoayh"
+        "elo": 302.873164290948,
+        "last_match_date": "2025-12-08",
+        "last_match_id": "2025-12-08_OEWgB2FI_KWCILIpI"
     },
     {
         "id": "qat_m_5",
