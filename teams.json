@@ -31,9 +31,9 @@
         ],
         "diretta_id": "EJS1lfOD",
         "diretta_name": "safety-perugia",
-        "elo": 505.40899258978635,
-        "last_match_date": "2025-12-07",
-        "last_match_id": "2025-12-07_2qsyTQW9_EJS1lfOD"
+        "elo": 507.5794868869878,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_EJS1lfOD_lQ8hRNM8"
     },
     {
         "id": "ita_m_4",
@@ -55,9 +55,9 @@
         ],
         "diretta_id": "2qsyTQW9",
         "diretta_name": "milano",
-        "elo": 401.04632481158956,
-        "last_match_date": "2025-12-07",
-        "last_match_id": "2025-12-07_2qsyTQW9_EJS1lfOD"
+        "elo": 403.06496035463607,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_KYKRy7gB_2qsyTQW9"
     },
     {
         "id": "ita_m_6",
@@ -103,9 +103,9 @@
         ],
         "diretta_id": "IXfYN7pB",
         "diretta_name": "piacenza",
-        "elo": 463.98688253556514,
-        "last_match_date": "2025-12-07",
-        "last_match_id": "2025-12-07_A7seqaBP_IXfYN7pB"
+        "elo": 465.6365645880429,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_IXfYN7pB_Crdl5TM1"
     },
     {
         "id": "ita_m_10",
@@ -151,9 +151,9 @@
         ],
         "diretta_id": "lWD9RIPD",
         "diretta_name": "jastrzebski",
-        "elo": 455.6511489256611,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_lWD9RIPD_21Os7cYs"
+        "elo": 455.6611489256611,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_xdHW77yF_lWD9RIPD"
     },
     {
         "id": "pol_m_2",
@@ -163,9 +163,9 @@
         ],
         "diretta_id": "zav73FX6",
         "diretta_name": "projekt-warszawa",
-        "elo": 488.40170482775756,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_EuwcJPKB_zav73FX6"
+        "elo": 493.2059789192648,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_zav73FX6_hESei7a0"
     },
     {
         "id": "pol_m_3",
@@ -175,9 +175,9 @@
         ],
         "diretta_id": "WhuLLKZT",
         "diretta_name": "zawiercie",
-        "elo": 473.4794518178098,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_WhuLLKZT_2kggPBWE"
+        "elo": 481.934757251349,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_WhuLLKZT_21Os7cYs"
     },
     {
         "id": "pol_m_4",
@@ -211,9 +211,9 @@
         ],
         "diretta_id": "21Os7cYs",
         "diretta_name": "rzeszow",
-        "elo": 460.27012027938645,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_lWD9RIPD_21Os7cYs"
+        "elo": 451.8148148458472,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_WhuLLKZT_21Os7cYs"
     },
     {
         "id": "pol_m_7",
@@ -235,9 +235,9 @@
         ],
         "diretta_id": "EuwcJPKB",
         "diretta_name": "norwid-czestochowa",
-        "elo": 332.15820622470414,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_EuwcJPKB_zav73FX6"
+        "elo": 335.87532192710376,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_dYSKZXu0_EuwcJPKB"
     },
     {
         "id": "pol_m_9",
@@ -319,9 +319,9 @@
         ],
         "diretta_id": "j7MxHCWI",
         "diretta_name": "zenit-kazan",
-        "elo": 509.6149221992348,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_S0nUsKBh_j7MxHCWI"
+        "elo": 510.86291598092515,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_j7MxHCWI_hbFonVBi"
     },
     {
         "id": "rus_m_2",
@@ -355,9 +355,9 @@
         ],
         "diretta_id": "tOoNOmgh",
         "diretta_name": "novosibirsk",
-        "elo": 479.4017345318194,
-        "last_match_date": "2025-12-05",
-        "last_match_id": "2025-12-05_bw6M1XcM_tOoNOmgh"
+        "elo": 459.86222390776584,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_tOoNOmgh_K85RJEn0"
     },
     {
         "id": "rus_m_5",
@@ -367,9 +367,9 @@
         ],
         "diretta_id": "S0nUsKBh",
         "diretta_name": "zenit-st-petersburg",
-        "elo": 445.3243543061725,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_S0nUsKBh_j7MxHCWI"
+        "elo": 447.5071253990197,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_S0nUsKBh_80aPt1Vn"
     },
     {
         "id": "rus_m_6",
@@ -391,9 +391,9 @@
         ],
         "diretta_id": "YgncOTwn",
         "diretta_name": "ufa",
-        "elo": 309.44911867112955,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_YgncOTwn_MB7pnxoH"
+        "elo": 296.6636612175551,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_hC0jKP7N_YgncOTwn"
     },
     {
         "id": "rus_m_8",
@@ -415,9 +415,9 @@
         ],
         "diretta_id": "hbFonVBi",
         "diretta_name": "kemerovo",
-        "elo": 273.09724910621696,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_f3mgP9Ou_hbFonVBi"
+        "elo": 271.8492553245266,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_j7MxHCWI_hbFonVBi"
     },
     {
         "id": "rus_m_10",
@@ -427,9 +427,9 @@
         ],
         "diretta_id": "K85RJEn0",
         "diretta_name": "novyi-urengoy",
-        "elo": 289.9155173108529,
-        "last_match_date": "2025-12-07",
-        "last_match_id": "2025-12-07_80aPt1Vn_K85RJEn0"
+        "elo": 309.45502793490647,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_tOoNOmgh_K85RJEn0"
     },
     {
         "id": "rus_m_11",
@@ -463,9 +463,9 @@
         ],
         "diretta_id": "80aPt1Vn",
         "diretta_name": "neftjanik-orenburg",
-        "elo": 250.42385590941433,
-        "last_match_date": "2025-12-07",
-        "last_match_id": "2025-12-07_80aPt1Vn_K85RJEn0"
+        "elo": 248.24108481656717,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_S0nUsKBh_80aPt1Vn"
     },
     {
         "id": "rus_m_14",
@@ -475,9 +475,9 @@
         ],
         "diretta_id": "hC0jKP7N",
         "diretta_name": "nova-novokuybyshevsk",
-        "elo": 259.5262836773959,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_2wzWMRN4_hC0jKP7N"
+        "elo": 272.31174113097035,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_hC0jKP7N_YgncOTwn"
     },
     {
         "id": "rus_m_15",
@@ -511,9 +511,9 @@
         ],
         "diretta_id": "j7Id0yFb",
         "diretta_name": "ziraat-bankasi",
-        "elo": 483.01545782378804,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_4nBz5M3U_j7Id0yFb"
+        "elo": 487.03288549666064,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_j7Id0yFb_WGABxZRf"
     },
     {
         "id": "tur_m_2",
@@ -523,9 +523,9 @@
         ],
         "diretta_id": "nLrfnIpa",
         "diretta_name": "galatasaray",
-        "elo": 377.9112128837671,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_nLrfnIpa_xKjcGtha"
+        "elo": 386.6409371912497,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_nLrfnIpa_IVLyj26M"
     },
     {
         "id": "tur_m_3",
@@ -535,9 +535,9 @@
         ],
         "diretta_id": "IgKl2cpn",
         "diretta_name": "fenerbahce",
-        "elo": 382.6204094441214,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_KloOcygm_IgKl2cpn"
+        "elo": 393.54402515787825,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_UVC4zpPD_IgKl2cpn"
     },
     {
         "id": "tur_m_4",
@@ -571,9 +571,9 @@
         ],
         "diretta_id": "4nBz5M3U",
         "diretta_name": "altekma",
-        "elo": 321.9773539011328,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_4nBz5M3U_j7Id0yFb"
+        "elo": 323.7850185039644,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_65vNOnMk_4nBz5M3U"
     },
     {
         "id": "tur_m_7",
@@ -583,9 +583,9 @@
         ],
         "diretta_id": "63ZVqQDr",
         "diretta_name": "alanya-bld",
-        "elo": 345.43625381681466,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_63ZVqQDr_UqTvfVSl"
+        "elo": 348.7431737242312,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_63ZVqQDr_S6huUs2s"
     },
     {
         "id": "tur_m_8",
@@ -691,9 +691,9 @@
         ],
         "diretta_id": "byQlmwTe",
         "diretta_name": "minas-tenis-clube",
-        "elo": 334.54353382446413,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_fsTxZQzt_byQlmwTe"
+        "elo": 340.914849179234,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_byQlmwTe_jgKi0Llj"
     },
     {
         "id": "bra_m_3",
@@ -811,9 +811,9 @@
         ],
         "diretta_id": "jgKi0Llj",
         "diretta_name": "monte-carmelo",
-        "elo": 240.13592739655908,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_jgKi0Llj_dxBuFAus"
+        "elo": 233.76461204178918,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_byQlmwTe_jgKi0Llj"
     },
     {
         "id": "arg_m_1",
@@ -955,9 +955,9 @@
         ],
         "diretta_id": "8pWgkzcP",
         "diretta_name": "luneburg",
-        "elo": 392.5968186047394,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_8pWgkzcP_vgw8MODe"
+        "elo": 403.0805157121311,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_8pWgkzcP_2cmfnQzs"
     },
     {
         "id": "ger_m_3",
@@ -979,9 +979,9 @@
         ],
         "diretta_id": "vgw8MODe",
         "diretta_name": "herrsching",
-        "elo": 270.9945330517149,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_8pWgkzcP_vgw8MODe"
+        "elo": 256.8680889961323,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_MNKJuMk8_vgw8MODe"
     },
     {
         "id": "ger_m_5",
@@ -1147,9 +1147,9 @@
         ],
         "diretta_id": "lhL6wFCl",
         "diretta_name": "tourcoing",
-        "elo": 375.39289064476304,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_lhL6wFCl_dhmqo2yp"
+        "elo": 365.050077014437,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_2mFkvMLS_lhL6wFCl"
     },
     {
         "id": "fra_m_4",
@@ -1159,9 +1159,9 @@
         ],
         "diretta_id": "WGABxZRf",
         "diretta_name": "tours",
-        "elo": 401.9893524450874,
-        "last_match_date": "2025-12-04",
-        "last_match_id": "2025-12-04_WGABxZRf_G06DuLNr"
+        "elo": 397.9719247722148,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_j7Id0yFb_WGABxZRf"
     },
     {
         "id": "fra_m_5",
@@ -1291,9 +1291,9 @@
         ],
         "diretta_id": "IVLyj26M",
         "diretta_name": "roeselare",
-        "elo": 413.85593189091674,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_IVLyj26M_hESei7a0"
+        "elo": 405.12620758343417,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_nLrfnIpa_IVLyj26M"
     },
     {
         "id": "bel_m_2",
@@ -1315,9 +1315,9 @@
         ],
         "diretta_id": "hESei7a0",
         "diretta_name": "haasrode-leuven",
-        "elo": 363.7446029023701,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_IVLyj26M_hESei7a0"
+        "elo": 358.94032881086287,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_zav73FX6_hESei7a0"
     },
     {
         "id": "bel_m_4",
@@ -1327,9 +1327,9 @@
         ],
         "diretta_id": "6qoPxMTP",
         "diretta_name": "achel",
-        "elo": 329.0688862980257,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_6qoPxMTP_pp1TByGo"
+        "elo": 333.6663363030065,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_IB5uIsLk_6qoPxMTP"
     },
     {
         "id": "bel_m_5",
@@ -1351,9 +1351,9 @@
         ],
         "diretta_id": "2mFkvMLS",
         "diretta_name": "maaseik",
-        "elo": 361.49027866919647,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_2mFkvMLS_tOgUx7xD"
+        "elo": 371.8330922995225,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_2mFkvMLS_lhL6wFCl"
     },
     {
         "id": null,
@@ -1543,9 +1543,9 @@
         ],
         "diretta_id": "M5rJEDHs",
         "diretta_name": "al-wakra",
-        "elo": 301.03518140163607,
-        "last_match_date": "2025-11-29",
-        "last_match_id": "2025-11-29_M5rJEDHs_OQnAVltR"
+        "elo": 310.07329758153355,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_M5rJEDHs_n3wXoayh"
     },
     {
         "id": "qat_m_3",
@@ -1579,9 +1579,9 @@
         ],
         "diretta_id": "n3wXoayh",
         "diretta_name": "al-arabi",
-        "elo": 296.2026495616123,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_KWCILIpI_n3wXoayh"
+        "elo": 287.1645333817148,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_M5rJEDHs_n3wXoayh"
     },
     {
         "id": null,
@@ -1651,9 +1651,9 @@
         ],
         "diretta_id": "GUMl8pkQ",
         "diretta_name": "shahrdari-urmia",
-        "elo": 311.95418225788353,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_GUMl8pkQ_vgtJXwCT"
+        "elo": 301.2828311093718,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_Mgp4x5JA_GUMl8pkQ"
     },
     {
         "id": "irn_m_2",
@@ -1663,9 +1663,9 @@
         ],
         "diretta_id": "U5c8aIrG",
         "diretta_name": "tabiat-eslamshahr",
-        "elo": 291.4585903862339,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_U5c8aIrG_dYSpTcKp"
+        "elo": 271.53851281140896,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_h0TqDKAi_U5c8aIrG"
     },
     {
         "id": "irn_m_3",
@@ -1675,9 +1675,9 @@
         ],
         "diretta_id": "4vVpW8mC",
         "diretta_name": "shahdab-yazd",
-        "elo": 364.1066805629965,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_4vVpW8mC_URSyoJjb"
+        "elo": 364.5351205864603,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_jiUIc2wQ_4vVpW8mC"
     },
     {
         "id": "irn_m_4",
@@ -1687,9 +1687,9 @@
         ],
         "diretta_id": "Mgp4x5JA",
         "diretta_name": "sirjan",
-        "elo": 338.33175142900814,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_AeiWZboJ_Mgp4x5JA"
+        "elo": 349.0031025775199,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_Mgp4x5JA_GUMl8pkQ"
     },
     {
         "id": "irn_m_5",
@@ -1699,9 +1699,9 @@
         ],
         "diretta_id": "AeiWZboJ",
         "diretta_name": "mehregan-noor",
-        "elo": 289.66051711061687,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_AeiWZboJ_Mgp4x5JA"
+        "elo": 275.88703700391056,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_2Vc0zLdC_AeiWZboJ"
     },
     {
         "id": "irn_m_6",
@@ -1711,9 +1711,9 @@
         ],
         "diretta_id": "URSyoJjb",
         "diretta_name": "paykan",
-        "elo": 254.43880457603092,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_4vVpW8mC_URSyoJjb"
+        "elo": 256.69980413366363,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_URSyoJjb_8W4ixsSa"
     },
     {
         "id": "irn_m_7",
@@ -1723,9 +1723,9 @@
         ],
         "diretta_id": "SjGBbxbM",
         "diretta_name": "chadormalu",
-        "elo": 245.61445947852997,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_jiUIc2wQ_SjGBbxbM"
+        "elo": 254.68506228287552,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_SjGBbxbM_dYSpTcKp"
     },
     {
         "id": null,
@@ -1735,9 +1735,9 @@
         ],
         "diretta_id": "jiUIc2wQ",
         "diretta_name": "sanatgaran-omid",
-        "elo": 210.55099799408293,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_jiUIc2wQ_SjGBbxbM"
+        "elo": 210.12255797061908,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_jiUIc2wQ_4vVpW8mC"
     },
     {
         "id": null,
@@ -1747,9 +1747,9 @@
         ],
         "diretta_id": "dYSpTcKp",
         "diretta_name": "gorgan",
-        "elo": 195.40257162049483,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_U5c8aIrG_dYSpTcKp"
+        "elo": 186.33196881614927,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_SjGBbxbM_dYSpTcKp"
     },
     {
         "id": null,
@@ -1783,9 +1783,9 @@
         ],
         "diretta_id": "8W4ixsSa",
         "diretta_name": "esteghlal-gonbad",
-        "elo": 141.5991439380616,
-        "last_match_date": "2025-11-30",
-        "last_match_id": "2025-11-30_AeiWZboJ_8W4ixsSa"
+        "elo": 139.33814438042887,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_URSyoJjb_8W4ixsSa"
     },
     {
         "id": null,
@@ -1795,9 +1795,9 @@
         ],
         "diretta_id": "2Vc0zLdC",
         "diretta_name": "razin-polymer",
-        "elo": 168.58869517006838,
-        "last_match_date": "2025-11-30",
-        "last_match_id": "2025-11-30_2Vc0zLdC_4vVpW8mC"
+        "elo": 182.36217527677468,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_2Vc0zLdC_AeiWZboJ"
     },
     {
         "id": null,
@@ -1807,9 +1807,9 @@
         ],
         "diretta_id": "h0TqDKAi",
         "diretta_name": "sepahan",
-        "elo": 172.50280702190835,
-        "last_match_date": "2025-11-30",
-        "last_match_id": "2025-11-30_h0TqDKAi_GUMl8pkQ"
+        "elo": 192.42288459673327,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_h0TqDKAi_U5c8aIrG"
     },
     {
         "id": "svn_m_1",
@@ -1831,9 +1831,9 @@
         ],
         "diretta_id": "xhKcXkuP",
         "diretta_name": "alpacem-kanal",
-        "elo": 293.31140175333235,
-        "last_match_date": "2025-12-05",
-        "last_match_id": "2025-12-05_QHGgYVPI_xhKcXkuP"
+        "elo": 288.3924435430931,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_AwS2lscL_xhKcXkuP"
     },
     {
         "id": "svn_m_3",
@@ -1855,9 +1855,9 @@
         ],
         "diretta_id": "dYSKZXu0",
         "diretta_name": "ok-maribor",
-        "elo": 246.0118054942904,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_bR3c7mlj_dYSKZXu0"
+        "elo": 242.2946897918908,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_dYSKZXu0_EuwcJPKB"
     },
     {
         "id": null,
@@ -1927,9 +1927,9 @@
         ],
         "diretta_id": "2cmfnQzs",
         "diretta_name": "sporting-cp",
-        "elo": 408.5311943191705,
-        "last_match_date": "2025-12-05",
-        "last_match_id": "2025-12-05_WATxDxSt_2cmfnQzs"
+        "elo": 398.04749721177876,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_8pWgkzcP_2cmfnQzs"
     },
     {
         "id": "prt_m_3",
@@ -2059,9 +2059,9 @@
         ],
         "diretta_id": "lQ8hRNM8",
         "diretta_name": "vk-lvi-prague",
-        "elo": 390.78282472680183,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_AamoCaeE_lQ8hRNM8"
+        "elo": 388.6123304296004,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_EJS1lfOD_lQ8hRNM8"
     },
     {
         "id": "cze_m_2",
@@ -2071,9 +2071,9 @@
         ],
         "diretta_id": "dt8ys2nr",
         "diretta_name": "karlovarsko",
-        "elo": 384.82782054053877,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_QNcK5khk_dt8ys2nr"
+        "elo": 391.15599686522296,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_vsEJzDd7_dt8ys2nr"
     },
     {
         "id": "cze_m_3",
@@ -2095,9 +2095,9 @@
         ],
         "diretta_id": "Crdl5TM1",
         "diretta_name": "ceske-budejovice",
-        "elo": 338.7058958654372,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_Crdl5TM1_Ua2c3KU1"
+        "elo": 337.0562138129594,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_IXfYN7pB_Crdl5TM1"
     },
     {
         "id": null,
@@ -2239,9 +2239,9 @@
         ],
         "diretta_id": "vsEJzDd7",
         "diretta_name": "aons-milon",
-        "elo": 340.4163321674449,
-        "last_match_date": "2025-12-02",
-        "last_match_id": "2025-12-02_vP40jjtD_vsEJzDd7"
+        "elo": 334.0881558427607,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_vsEJzDd7_dt8ys2nr"
     },
     {
         "id": "gre_m_4",
@@ -2359,9 +2359,9 @@
         ],
         "diretta_id": "AwS2lscL",
         "diretta_name": "mok-mursa-osijek",
-        "elo": 312.45916241905707,
-        "last_match_date": "2025-11-30",
-        "last_match_id": "2025-11-30_AwS2lscL_x8EXtuzk"
+        "elo": 317.3781206292963,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_AwS2lscL_xhKcXkuP"
     },
     {
         "id": "hrv_m_4",
@@ -2487,9 +2487,9 @@
         ],
         "diretta_id": "O6ac1n9H",
         "diretta_name": "dinamo-bucuresti",
-        "elo": 220.44620954129175,
-        "last_match_date": "2025-11-13",
-        "last_match_id": "2025-11-13_QHGgYVPI_O6ac1n9H"
+        "elo": 241.38330139242228,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_O6ac1n9H_4xkr03GF"
     },
     {
         "name": "Podgorica",
@@ -2520,9 +2520,9 @@
         ],
         "diretta_id": "xdHW77yF",
         "diretta_name": "mav-elore-sc",
-        "elo": 222.88988171792778,
-        "last_match_date": "2025-11-18",
-        "last_match_id": "2025-11-18_xdHW77yF_p4s7hUbp"
+        "elo": 222.8798817179278,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_xdHW77yF_lWD9RIPD"
     },
     {
         "name": "Guaguas",
@@ -2654,9 +2654,9 @@
         ],
         "diretta_id": "4xkr03GF",
         "diretta_name": "lokomotiv-avia",
-        "elo": 361.53515453968834,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_Ee7nI8RM_4xkr03GF"
+        "elo": 340.59806268855783,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_O6ac1n9H_4xkr03GF"
     },
     {
         "id": "bul_m_3",
@@ -2774,9 +2774,9 @@
         ],
         "diretta_id": "UVC4zpPD",
         "diretta_name": "radnicki",
-        "elo": 359.9154015838913,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_UVC4zpPD_S6huUs2s"
+        "elo": 348.99178587013444,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_UVC4zpPD_IgKl2cpn"
     },
     {
         "id": "srb_m_2",
@@ -2786,9 +2786,9 @@
         ],
         "diretta_id": "S6huUs2s",
         "diretta_name": "vojvodina",
-        "elo": 302.5845984161087,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_UVC4zpPD_S6huUs2s"
+        "elo": 299.27767850869213,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_63ZVqQDr_S6huUs2s"
     },
     {
         "id": "srb_m_3",
@@ -2822,9 +2822,9 @@
         ],
         "diretta_id": "ji1tIHr9",
         "diretta_name": "karadjordje-topola",
-        "elo": 290.87537600795355,
-        "last_match_date": "2025-12-06",
-        "last_match_id": "2025-12-06_rZG8Z3vK_ji1tIHr9"
+        "elo": 275.5708689692666,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_pvRDljQN_ji1tIHr9"
     },
     {
         "id": null,
@@ -2931,5 +2931,60 @@
         "elo": 197.45284217298766,
         "last_match_date": "2025-12-09",
         "last_match_id": "2025-12-09_ARifq4bA_vP40jjtD"
+    },
+    {
+        "name": "OK Stip",
+        "names": [
+            "OK Stip"
+        ],
+        "diretta_id": "KYKRy7gB",
+        "diretta_name": "ok-stip",
+        "elo": 197.9813644569535,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_KYKRy7gB_2qsyTQW9"
+    },
+    {
+        "name": "Sliedrecht",
+        "names": [
+            "Sliedrecht"
+        ],
+        "diretta_id": "65vNOnMk",
+        "diretta_name": "sliedrecht",
+        "elo": 198.19233539716842,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_65vNOnMk_4nBz5M3U"
+    },
+    {
+        "name": "BIGBANK Tartu",
+        "names": [
+            "BIGBANK Tartu"
+        ],
+        "diretta_id": "MNKJuMk8",
+        "diretta_name": "bigbank-tartu",
+        "elo": 214.12644405558254,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_MNKJuMk8_vgw8MODe"
+    },
+    {
+        "name": "TSV Hartberg",
+        "names": [
+            "TSV Hartberg"
+        ],
+        "diretta_id": "IB5uIsLk",
+        "diretta_name": "tsv-hartberg",
+        "elo": 195.40254999501917,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_IB5uIsLk_6qoPxMTP"
+    },
+    {
+        "name": "Epitsentr Podoliani",
+        "names": [
+            "Epitsentr Podoliani"
+        ],
+        "diretta_id": "pvRDljQN",
+        "diretta_name": "epitsentr-podoliani",
+        "elo": 215.30450703868692,
+        "last_match_date": "2025-12-10",
+        "last_match_id": "2025-12-10_pvRDljQN_ji1tIHr9"
     }
 ]
