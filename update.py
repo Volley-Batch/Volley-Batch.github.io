@@ -190,8 +190,12 @@ def parse_team_results_diretta_page(soup, teams_data):
                 home_id, away_id = get_home_away_from_match_page(match_url)
                 
                 if not home_id or not away_id:
-                    print(f"{RED}Warning: Could not extract home/away IDs from match page{RESET}")
-                    continue
+                    # Retry once, then skip if still failing
+                    print(f"{YELLOW}Retrying to fetch match page for team IDs: {match_url}{RESET}")
+                    home_id, away_id = get_home_away_from_match_page(match_url)
+                    if not home_id or not away_id:
+                        print(f"{RED}Warning: Could not extract home/away IDs from match page{RESET}")
+                        continue
                 
                 print(f"Extracted home_id: {home_id}, away_id: {away_id}")
                 
