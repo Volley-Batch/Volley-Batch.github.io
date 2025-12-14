@@ -157,9 +157,9 @@
     },
     {
         "id": "pol_m_1",
-        "name": "Jastrzebski",
+        "name": "Jastrzębski Węgiel",
         "names": [
-            "Jastrzebski"
+            "Jastrzębski Węgiel"
         ],
         "diretta_id": "lWD9RIPD",
         "diretta_name": "jastrzebski",
@@ -209,9 +209,9 @@
     },
     {
         "id": "pol_m_5",
-        "name": "Kedzierzyn-Kozle",
+        "name": "Kędzierzyn-Koźle",
         "names": [
-            "Kedzierzyn-Kozle"
+            "Kędzierzyn-Koźle"
         ],
         "diretta_id": "n7gpLG2s",
         "diretta_name": "kedzierzyn-kozle",
@@ -222,9 +222,9 @@
     },
     {
         "id": "pol_m_6",
-        "name": "Rzeszow",
+        "name": "Rzeszów",
         "names": [
-            "Rzeszow"
+            "Rzeszów"
         ],
         "diretta_id": "21Os7cYs",
         "diretta_name": "rzeszow",
@@ -235,9 +235,9 @@
     },
     {
         "id": "pol_m_7",
-        "name": "Belchatow",
+        "name": "Bełchatów",
         "names": [
-            "Belchatow"
+            "Bełchatów"
         ],
         "diretta_id": "SMCDQxuK",
         "diretta_name": "belchatow",
@@ -248,9 +248,9 @@
     },
     {
         "id": "pol_m_8",
-        "name": "Norwid Czestochowa",
+        "name": "Norwid Częstochowa",
         "names": [
-            "Norwid Czestochowa"
+            "Norwid Częstochowa"
         ],
         "diretta_id": "EuwcJPKB",
         "diretta_name": "norwid-czestochowa",
@@ -274,9 +274,9 @@
     },
     {
         "id": "pol_m_10",
-        "name": "Slepsk Suwalki",
+        "name": "Ślepsk Suwałki",
         "names": [
-            "Slepsk Suwalki"
+            "Ślepsk Suwałki"
         ],
         "diretta_id": "2kggPBWE",
         "diretta_name": "slepsk-suwalki",
@@ -287,9 +287,9 @@
     },
     {
         "id": "pol_m_11",
-        "name": "Gdansk",
+        "name": "Gdańsk",
         "names": [
-            "Gdansk"
+            "Gdańsk"
         ],
         "diretta_id": "Ao2IPdfQ",
         "diretta_name": "trefl-gdansk",
@@ -300,9 +300,9 @@
     },
     {
         "id": "pol_m_12",
-        "name": "Cuprum Gorzow",
+        "name": "Cuprum Gorzów",
         "names": [
-            "Cuprum Gorzow"
+            "Cuprum Gorzów"
         ],
         "diretta_id": "K4CJzoda",
         "diretta_name": "cuprum-gorzow",
@@ -313,22 +313,26 @@
     },
     {
         "id": "pol_m_13",
-        "name": "Barkom",
+        "name": "Barkom-Każany Lwów",
         "names": [
-            "Barkom"
+            "Barkom-Każany Lwów"
+        ],
+        "notes":
+        [
+            "Ukraine-based team playing in Polish league"
         ],
         "diretta_id": "jm1YCctT",
         "diretta_name": "barkom",
         "elo": 311.218221575367,
         "last_match_date": "2025-12-13",
         "last_match_id": "2025-12-13_jm1YCctT_lWD9RIPD",
-        "country_iso2": "pl"
+        "country_iso2": "ua"
     },
     {
         "id": null,
-        "name": "CHKS Chelm",
+        "name": "CHKS Chełm",
         "names": [
-            "CHKS Chelm"
+            "CHKS Chełm"
         ],
         "diretta_id": "Um4hyFKf",
         "diretta_name": "chks-chelm",
@@ -352,9 +356,9 @@
     },
     {
         "id": "rus_m_2",
-        "name": "Belgorod",
+        "name": "Belogorie Belgorod",
         "names": [
-            "Belgorod"
+            "Belogorie Belgorod"
         ],
         "diretta_id": "f3mgP9Ou",
         "diretta_name": "belgorod",
@@ -378,9 +382,9 @@
     },
     {
         "id": "rus_m_4",
-        "name": "Novosibirsk",
+        "name": "Lokomotiv Novosibirsk",
         "names": [
-            "Novosibirsk"
+            "Lokomotiv Novosibirsk"
         ],
         "diretta_id": "tOoNOmgh",
         "diretta_name": "novosibirsk",
@@ -458,7 +462,8 @@
         "id": "rus_m_10",
         "name": "Novyi Urengoy",
         "names": [
-            "Novyi Urengoy"
+            "Novyi Urengoy",
+            "Fakel Yamal"
         ],
         "diretta_id": "K85RJEn0",
         "diretta_name": "novyi-urengoy",
@@ -469,9 +474,9 @@
     },
     {
         "id": "rus_m_11",
-        "name": "Surgut region",
+        "name": "Surgut",
         "names": [
-            "Surgut region"
+            "Surgut"
         ],
         "diretta_id": "KEpRN78b",
         "diretta_name": "surgut-region",
@@ -547,9 +552,9 @@
     },
     {
         "id": "tur_m_1",
-        "name": "Ziraat Bankasi",
+        "name": "Ziraat Bankası",
         "names": [
-            "Ziraat Bankasi"
+            "Ziraat Bankası"
         ],
         "diretta_id": "j7Id0yFb",
         "diretta_name": "ziraat-bankasi",
@@ -573,9 +578,9 @@
     },
     {
         "id": "tur_m_3",
-        "name": "Fenerbahce",
+        "name": "Fenerbahçe",
         "names": [
-            "Fenerbahce"
+            "Fenerbahçe"
         ],
         "diretta_id": "IgKl2cpn",
         "diretta_name": "fenerbahce",
@@ -638,9 +643,9 @@
     },
     {
         "id": "tur_m_8",
-        "name": "Istanbul GSK",
+        "name": "İstanbul GSK",
         "names": [
-            "Istanbul GSK"
+            "İstanbul GSK"
         ],
         "diretta_id": "6katO8rK",
         "diretta_name": "istanbul-gsk",
@@ -677,9 +682,9 @@
     },
     {
         "id": "tur_m_11",
-        "name": "Akkus Bld",
+        "name": "Akkuş Bld",
         "names": [
-            "Akkus Bld"
+            "Akkuş Bld"
         ],
         "diretta_id": "n5HM8Usr",
         "diretta_name": "akkus-bld",
@@ -690,9 +695,9 @@
     },
     {
         "id": "tur_m_12",
-        "name": "Gaziantep Genclik",
+        "name": "Gaziantep Gençlik",
         "names": [
-            "Gaziantep Genclik"
+            "Gaziantep Gençlik"
         ],
         "diretta_id": "KloOcygm",
         "diretta_name": "gaziantep-genclik",
@@ -703,9 +708,9 @@
     },
     {
         "id": "tur_m_13",
-        "name": "Istanbul BB",
+        "name": "İstanbul BB",
         "names": [
-            "Istanbul BB"
+            "İstanbul BB"
         ],
         "diretta_id": "CGJh1Hah",
         "diretta_name": "istanbul-bb",
@@ -755,9 +760,9 @@
     },
     {
         "id": "bra_m_3",
-        "name": "Volei Renata",
+        "name": "Vôlei Renata",
         "names": [
-            "Volei Renata"
+            "Vôlei Renata"
         ],
         "diretta_id": "QqMi2DVn",
         "diretta_name": "volei-renata",
@@ -807,9 +812,9 @@
     },
     {
         "id": "bra_m_7",
-        "name": "Suzano Volei",
+        "name": "Suzano Vôlei",
         "names": [
-            "Suzano Volei"
+            "Suzano Vôlei"
         ],
         "diretta_id": "p298ASFI",
         "diretta_name": "suzano-volei",
@@ -846,9 +851,9 @@
     },
     {
         "id": "bra_m_10",
-        "name": "Goias",
+        "name": "Goiás",
         "names": [
-            "Goias"
+            "Goiás"
         ],
         "diretta_id": "8d2aS61N",
         "diretta_name": "goias",
@@ -859,9 +864,9 @@
     },
     {
         "id": "bra_m_11",
-        "name": "JF Volei",
+        "name": "JF Vôlei",
         "names": [
-            "JF Volei"
+            "JF Vôlei"
         ],
         "diretta_id": "fsTxZQzt",
         "diretta_name": "jf-volei",
@@ -885,9 +890,9 @@
     },
     {
         "id": "arg_m_1",
-        "name": "Ciudad Voley",
+        "name": "Ciudad Vóley",
         "names": [
-            "Ciudad Voley"
+            "Ciudad Vóley"
         ],
         "diretta_id": "WMOb4cbO",
         "diretta_name": "ciudad-buenos-aires",
@@ -924,9 +929,9 @@
     },
     {
         "id": "arg_m_4",
-        "name": "Tucuman De Gimnasia",
+        "name": "Tucumán De Gimnasia",
         "names": [
-            "Tucuman De Gimnasia"
+            "Tucumán De Gimnasia"
         ],
         "diretta_id": "bLGPsNgP",
         "diretta_name": "tucuman-de-gimnasia",
@@ -1002,9 +1007,9 @@
     },
     {
         "id": null,
-        "name": "Velez Sarsfield",
+        "name": "Vélez Sarsfield",
         "names": [
-            "Velez Sarsfield"
+            "Vélez Sarsfield"
         ],
         "diretta_id": "W8QN2ml3",
         "diretta_name": "velez-sarsfield",
@@ -1028,9 +1033,9 @@
     },
     {
         "id": "ger_m_2",
-        "name": "Luneburg",
+        "name": "Lüneburg",
         "names": [
-            "Luneburg"
+            "Lüneburg"
         ],
         "diretta_id": "8pWgkzcP",
         "diretta_name": "luneburg",
@@ -1080,9 +1085,9 @@
     },
     {
         "id": "ger_m_6",
-        "name": "Duren",
+        "name": "Düren",
         "names": [
-            "Duren"
+            "Düren"
         ],
         "diretta_id": "fLhuwREA",
         "diretta_name": "duren",
@@ -1119,9 +1124,9 @@
     },
     {
         "id": null,
-        "name": "Haching Munchen",
+        "name": "Haching München",
         "names": [
-            "Haching Munchen"
+            "Haching München"
         ],
         "diretta_id": "4WaSuTUi",
         "diretta_name": "haching-munchen",
@@ -1184,9 +1189,9 @@
     },
     {
         "id": null,
-        "name": "Warnemunde",
+        "name": "Warnemünde",
         "names": [
-            "Warnemunde"
+            "Warnemünde"
         ],
         "diretta_id": "OWUbRW4I",
         "diretta_name": "warnemunde",
@@ -1262,9 +1267,9 @@
     },
     {
         "id": "fra_m_5",
-        "name": "Nizza",
+        "name": "Nice",
         "names": [
-            "Nizza"
+            "Nice"
         ],
         "diretta_id": "O4MYx0BC",
         "diretta_name": "nice",
@@ -2055,9 +2060,9 @@
     },
     {
         "id": null,
-        "name": "Fuzinar",
+        "name": "Fužinar",
         "names": [
-            "Fuzinar"
+            "Fužinar"
         ],
         "diretta_id": "bR3c7mlj",
         "diretta_name": "fuzinar",
@@ -2107,9 +2112,9 @@
     },
     {
         "id": "prt_m_4",
-        "name": "Leixoes SC",
+        "name": "Leixões SC",
         "names": [
-            "Leixoes SC"
+            "Leixões SC"
         ],
         "diretta_id": "INkEKK52",
         "diretta_name": "leixoes-sc",
@@ -2120,9 +2125,9 @@
     },
     {
         "id": "prt_m_5",
-        "name": "Castelo Maia GC",
+        "name": "Castêlo da Maia GC",
         "names": [
-            "Castelo Maia GC"
+            "Castêlo da Maia GC"
         ],
         "diretta_id": "QcxiIx5R",
         "diretta_name": "castelo-maia-gc",
@@ -2146,9 +2151,9 @@
     },
     {
         "id": null,
-        "name": "Vitoria",
+        "name": "Vitória SC",
         "names": [
-            "Vitoria"
+            "Vitória SC"
         ],
         "diretta_id": "4rlrKbzF",
         "diretta_name": "vitoria-guimaraes",
@@ -2172,9 +2177,9 @@
     },
     {
         "id": null,
-        "name": "Mamede",
+        "name": "São Mamede",
         "names": [
-            "Mamede"
+            "São Mamede"
         ],
         "diretta_id": "fsBzXKhU",
         "diretta_name": "mamede",
@@ -2263,9 +2268,9 @@
     },
     {
         "id": "cze_m_4",
-        "name": "Ceske Budejovice",
+        "name": "České Budějovice",
         "names": [
-            "Ceske Budejovice"
+            "České Budějovice"
         ],
         "diretta_id": "Crdl5TM1",
         "diretta_name": "ceske-budejovice",
@@ -2276,9 +2281,9 @@
     },
     {
         "id": null,
-        "name": "Benatky",
+        "name": "Benátky",
         "names": [
-            "Benatky"
+            "Benátky"
         ],
         "diretta_id": "zN4lS372",
         "diretta_name": "benatky",
@@ -2315,9 +2320,9 @@
     },
     {
         "id": null,
-        "name": "Pribram",
+        "name": "Příbram",
         "names": [
-            "Pribram"
+            "Příbram"
         ],
         "diretta_id": "jZfh4mx8",
         "diretta_name": "pribram",
@@ -2367,9 +2372,9 @@
     },
     {
         "id": null,
-        "name": "Zlin",
+        "name": "Zlín",
         "names": [
-            "Zlin"
+            "Zlín"
         ],
         "diretta_id": "rDogAwQQ",
         "diretta_name": "zlin",
@@ -2380,9 +2385,9 @@
     },
     {
         "id": null,
-        "name": "Usti",
+        "name": "Ústí nad Labem",
         "names": [
-            "Usti"
+            "Ústí nad Labem"
         ],
         "diretta_id": "Ua2c3KU1",
         "diretta_name": "usti",
@@ -2432,9 +2437,9 @@
     },
     {
         "id": "gre_m_4",
-        "name": "PAOK",
+        "name": "PAOK Thessaloniki",
         "names": [
-            "PAOK"
+            "PAOK Thessaloniki"
         ],
         "diretta_id": "vP40jjtD",
         "diretta_name": "paok",
@@ -2445,9 +2450,9 @@
     },
     {
         "id": "gre_m_5",
-        "name": "Foinikas Syroy",
+        "name": "Foinikas Sýros",
         "names": [
-            "Foinikas Syroy"
+            "Foinikas Sýros"
         ],
         "diretta_id": "pKEFygs1",
         "diretta_name": "foinikas-syroy",
@@ -2458,9 +2463,9 @@
     },
     {
         "id": null,
-        "name": "Kifisia",
+        "name": "Kifisiás",
         "names": [
-            "Kifisia"
+            "Kifisiás"
         ],
         "diretta_id": "SWgFhYtl",
         "diretta_name": "kifisia",
@@ -2471,9 +2476,9 @@
     },
     {
         "id": null,
-        "name": "OFI",
+        "name": "OFI Crete",
         "names": [
-            "OFI"
+            "OFI Crete"
         ],
         "diretta_id": "WKH8o7LM",
         "diretta_name": "ofi",
@@ -2536,9 +2541,9 @@
     },
     {
         "id": "hrv_m_2",
-        "name": "Mladost Ribola Kastela",
+        "name": "Mladost Ribola Kaštela",
         "names": [
-            "Mladost Ribola Kastela"
+            "Mladost Ribola Kaštela"
         ],
         "diretta_id": "x8EXtuzk",
         "diretta_name": "mladost-ribola-kastela",
@@ -2614,9 +2619,9 @@
     },
     {
         "id": null,
-        "name": "Varazdin",
+        "name": "Varaždin",
         "names": [
-            "Varazdin"
+            "Varaždin"
         ],
         "diretta_id": "OITYl3S8",
         "diretta_name": "varazdin",
@@ -2796,9 +2801,9 @@
     },
     {
         "id": "srb_m_1",
-        "name": "Radnicki",
+        "name": "Radnički",
         "names": [
-            "Radnicki"
+            "Radnički"
         ],
         "diretta_id": "UVC4zpPD",
         "diretta_name": "radnicki",
@@ -2809,9 +2814,9 @@
     },
     {
         "id": "srb_m_2",
-        "name": "Vojvodina",
+        "name": "Vojvodina Novi Sad",
         "names": [
-            "Vojvodina"
+            "Vojvodina Novi Sad"
         ],
         "diretta_id": "S6huUs2s",
         "diretta_name": "vojvodina",
@@ -2822,9 +2827,9 @@
     },
     {
         "id": "srb_m_3",
-        "name": "Stella Rossa",
+        "name": "Crvena Zvezda Belgrade",
         "names": [
-            "Stella Rossa"
+            "Crvena Zvezda Belgrade"
         ],
         "diretta_id": "Qc6DYNgQ",
         "diretta_name": "crvena-zvezda",
@@ -2835,9 +2840,9 @@
     },
     {
         "id": "srb_m_4",
-        "name": "Dubocica",
+        "name": "Dubočica",
         "names": [
-            "Dubocica"
+            "Dubočica"
         ],
         "diretta_id": "dITwbUQJ",
         "diretta_name": "dubocica",
@@ -2848,9 +2853,9 @@
     },
     {
         "id": "srb_m_5",
-        "name": "Karadjordje Topola",
+        "name": "Karađorđe Topola",
         "names": [
-            "Karadjordje Topola"
+            "Karađorđe Topola"
         ],
         "diretta_id": "ji1tIHr9",
         "diretta_name": "karadjordje-topola",
@@ -2874,9 +2879,9 @@
     },
     {
         "id": null,
-        "name": "Nis",
+        "name": "Niš",
         "names": [
-            "Nis"
+            "Niš"
         ],
         "diretta_id": "fmrgvrV4",
         "diretta_name": "nis",
@@ -2951,9 +2956,9 @@
         "country_iso2": "rs"
     },
     {
-        "name": "CSKA Mosca",
+        "name": "CSKA Moscow",
         "names": [
-            "CSKA Mosca"
+            "CSKA Moscow"
         ],
         "diretta_id": "4pLOGc4q",
         "diretta_name": "cska-moscow",
@@ -2987,9 +2992,9 @@
         "country_iso2": "be"
     },
     {
-        "name": "Dinamo Bucuresti",
+        "name": "Dinamo București",
         "names": [
-            "Dinamo Bucuresti"
+            "Dinamo București"
         ],
         "diretta_id": "O6ac1n9H",
         "diretta_name": "dinamo-bucuresti",
@@ -3011,9 +3016,9 @@
         "country_iso2": "me"
     },
     {
-        "name": "Budvanska Rivijera",
+        "name": "Budva",
         "names": [
-            "Budvanska Rivijera"
+            "Budva"
         ],
         "diretta_id": "fBH6DOzl",
         "diretta_name": "budvanska-rivijera",
@@ -3023,9 +3028,9 @@
         "country_iso2": "me"
     },
     {
-        "name": "MAV Elore SC",
+        "name": "MÁV Előre SC",
         "names": [
-            "MAV Elore SC"
+            "MÁV Előre SC"
         ],
         "diretta_id": "xdHW77yF",
         "diretta_name": "mav-elore-sc",
@@ -3167,9 +3172,9 @@
         "country_iso2": "az"
     },
     {
-        "name": "Pafos",
+        "name": "Dionysos Paphos",
         "names": [
-            "Pafos"
+            "Dionysos Paphos"
         ],
         "diretta_id": "ARifq4bA",
         "diretta_name": "pafos",
@@ -3179,9 +3184,9 @@
         "country_iso2": "cy"
     },
     {
-        "name": "OK Stip",
+        "name": "OK Štip",
         "names": [
-            "OK Stip"
+            "OK Štip"
         ],
         "diretta_id": "KYKRy7gB",
         "diretta_name": "ok-stip",
@@ -3203,9 +3208,9 @@
         "country_iso2": "nl"
     },
     {
-        "name": "BIGBANK Tartu",
+        "name": "Bigbank Tartu",
         "names": [
-            "BIGBANK Tartu"
+            "Bigbank Tartu"
         ],
         "diretta_id": "MNKJuMk8",
         "diretta_name": "bigbank-tartu",
@@ -3239,9 +3244,9 @@
         "country_iso2": "ua"
     },
     {
-        "name": "Arcada Galati",
+        "name": "Arcada Galați",
         "names": [
-            "Arcada Galati"
+            "Arcada Galați"
         ],
         "diretta_id": "nLLqbs85",
         "diretta_name": "arcada-galati",
