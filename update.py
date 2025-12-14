@@ -93,6 +93,11 @@ def get_home_away_from_match_page(match_url):
     except Exception as e:
         print(f"{RED}Warning: Failed to extract home/away IDs from match page: {match_url}{RESET}")
         print(f"{RED}Error details: {e}{RESET}")
+        try:
+            print("Debugging match page HTML snippet (home_div):")
+            print(home_div.prettify() if home_div else "No home_div")
+        except:
+            pass
         return None, None
 
 def parse_team_results_diretta_page(soup, teams_data):
