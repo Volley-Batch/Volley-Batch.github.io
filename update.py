@@ -332,7 +332,7 @@ def update_results():
 
     # load teams from JSON file
     print("Loading teams from teams.json...")
-    teams_json = open("teams.json", "r")
+    teams_json = open("teams.json", "r", encoding="utf-8")
     teams_data = json.load(teams_json)
     teams_json.close()
 
