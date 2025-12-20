@@ -176,9 +176,9 @@
         ],
         "diretta_id": "zav73FX6",
         "diretta_name": "projekt-warszawa",
-        "elo": 498.85384804879067,
-        "last_match_date": "2025-12-14",
-        "last_match_id": "2025-12-14_zav73FX6_n7gpLG2s",
+        "elo": 503.97654976383177,
+        "last_match_date": "2025-12-19",
+        "last_match_id": "2025-12-19_zav73FX6_SMCDQxuK",
         "country_iso2": "pl"
     },
     {
@@ -241,9 +241,9 @@
         ],
         "diretta_id": "SMCDQxuK",
         "diretta_name": "belchatow",
-        "elo": 435.86081933898265,
-        "last_match_date": "2025-12-16",
-        "last_match_id": "2025-12-16_SMCDQxuK_2kggPBWE",
+        "elo": 430.73811762394155,
+        "last_match_date": "2025-12-19",
+        "last_match_id": "2025-12-19_zav73FX6_SMCDQxuK",
         "country_iso2": "pl"
     },
     {
@@ -452,9 +452,9 @@
         ],
         "diretta_id": "hbFonVBi",
         "diretta_name": "kemerovo",
-        "elo": 263.96073038944303,
-        "last_match_date": "2025-12-13",
-        "last_match_id": "2025-12-13_80aPt1Vn_hbFonVBi",
+        "elo": 261.9745474440682,
+        "last_match_date": "2025-12-19",
+        "last_match_id": "2025-12-19_hbFonVBi_K85RJEn0",
         "country_iso2": "ru"
     },
     {
@@ -466,9 +466,9 @@
         ],
         "diretta_id": "K85RJEn0",
         "diretta_name": "novyi-urengoy",
-        "elo": 327.1360828958771,
-        "last_match_date": "2025-12-14",
-        "last_match_id": "2025-12-14_K85RJEn0_S0nUsKBh",
+        "elo": 329.12226584125193,
+        "last_match_date": "2025-12-19",
+        "last_match_id": "2025-12-19_hbFonVBi_K85RJEn0",
         "country_iso2": "ru"
     },
     {
@@ -1025,9 +1025,9 @@
         ],
         "diretta_id": "nekXvmpb",
         "diretta_name": "scc-berlin",
-        "elo": 384.0021961889467,
-        "last_match_date": "2025-12-17",
-        "last_match_id": "2025-12-17_Qu1Ot9Fo_nekXvmpb",
+        "elo": 384.6141843481328,
+        "last_match_date": "2025-12-19",
+        "last_match_id": "2025-12-19_0bgyv7a4_nekXvmpb",
         "country_iso2": "de"
     },
     {
@@ -1116,9 +1116,9 @@
         ],
         "diretta_id": "0bgyv7a4",
         "diretta_name": "netzhoppers",
-        "elo": 235.0684038143177,
-        "last_match_date": "2025-12-13",
-        "last_match_id": "2025-12-13_vgw8MODe_0bgyv7a4",
+        "elo": 234.45641565513154,
+        "last_match_date": "2025-12-19",
+        "last_match_id": "2025-12-19_0bgyv7a4_nekXvmpb",
         "country_iso2": "de"
     },
     {
@@ -1688,9 +1688,9 @@
         ],
         "diretta_id": "OEWgB2FI",
         "diretta_name": "police-club",
-        "elo": 310.6856109224734,
-        "last_match_date": "2025-12-13",
-        "last_match_id": "2025-12-13_M5rJEDHs_OEWgB2FI",
+        "elo": 314.3091916804062,
+        "last_match_date": "2025-12-19",
+        "last_match_id": "2025-12-19_tdSt87W8_OEWgB2FI",
         "country_iso2": "qa"
     },
     {
@@ -1714,9 +1714,9 @@
         ],
         "diretta_id": "n3wXoayh",
         "diretta_name": "al-arabi",
-        "elo": 292.0295089829559,
-        "last_match_date": "2025-12-13",
-        "last_match_id": "2025-12-13_tdSt87W8_n3wXoayh",
+        "elo": 297.7801394224145,
+        "last_match_date": "2025-12-19",
+        "last_match_id": "2025-12-19_OQnAVltR_n3wXoayh",
         "country_iso2": "qa"
     },
     {
@@ -1740,9 +1740,9 @@
         ],
         "diretta_id": "OQnAVltR",
         "diretta_name": "al-gharafa",
-        "elo": 186.21583501058532,
-        "last_match_date": "2025-12-03",
-        "last_match_id": "2025-12-03_AoB7qja3_OQnAVltR",
+        "elo": 180.46520457112675,
+        "last_match_date": "2025-12-19",
+        "last_match_id": "2025-12-19_OQnAVltR_n3wXoayh",
         "country_iso2": "qa"
     },
     {
@@ -1766,9 +1766,9 @@
         ],
         "diretta_id": "tdSt87W8",
         "diretta_name": "al-khor",
-        "elo": 158.91482752997564,
-        "last_match_date": "2025-12-13",
-        "last_match_id": "2025-12-13_tdSt87W8_n3wXoayh",
+        "elo": 155.29124677204285,
+        "last_match_date": "2025-12-19",
+        "last_match_id": "2025-12-19_tdSt87W8_OEWgB2FI",
         "country_iso2": "qa"
     },
     {
