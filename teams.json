@@ -7,9 +7,9 @@
         ],
         "diretta_id": "CffxNRaH",
         "diretta_name": "trentino",
-        "elo": 515.4273774165471,
-        "last_match_date": "2025-12-26",
-        "last_match_id": "2025-12-26_vgreOTFb_CffxNRaH",
+        "elo": 518.3880467168183,
+        "last_match_date": "2025-12-29",
+        "last_match_id": "2025-12-29_CffxNRaH_vgreOTFb",
         "country_iso2": "it"
     },
     {
@@ -124,9 +124,9 @@
         ],
         "diretta_id": "vgreOTFb",
         "diretta_name": "monza",
-        "elo": 345.71578267314527,
-        "last_match_date": "2025-12-26",
-        "last_match_id": "2025-12-26_vgreOTFb_CffxNRaH",
+        "elo": 342.75511337287406,
+        "last_match_date": "2025-12-29",
+        "last_match_id": "2025-12-29_CffxNRaH_vgreOTFb",
         "country_iso2": "it"
     },
     {
@@ -176,9 +176,9 @@
         ],
         "diretta_id": "zav73FX6",
         "diretta_name": "projekt-warszawa",
-        "elo": 491.4501095009338,
-        "last_match_date": "2025-12-23",
-        "last_match_id": "2025-12-23_Kv7iGxys_zav73FX6",
+        "elo": 499.8424699768084,
+        "last_match_date": "2025-12-29",
+        "last_match_id": "2025-12-29_zav73FX6_SMCDQxuK",
         "country_iso2": "pl"
     },
     {
@@ -241,9 +241,9 @@
         ],
         "diretta_id": "SMCDQxuK",
         "diretta_name": "belchatow",
-        "elo": 430.73811762394155,
-        "last_match_date": "2025-12-19",
-        "last_match_id": "2025-12-19_zav73FX6_SMCDQxuK",
+        "elo": 422.345757148067,
+        "last_match_date": "2025-12-29",
+        "last_match_id": "2025-12-29_zav73FX6_SMCDQxuK",
         "country_iso2": "pl"
     },
     {
@@ -267,9 +267,9 @@
         ],
         "diretta_id": "pAof6Hml",
         "diretta_name": "olsztyn",
-        "elo": 413.6691956589896,
-        "last_match_date": "2025-12-23",
-        "last_match_id": "2025-12-23_Um4hyFKf_pAof6Hml",
+        "elo": 415.3802808462748,
+        "last_match_date": "2025-12-29",
+        "last_match_id": "2025-12-29_UFek062c_pAof6Hml",
         "country_iso2": "pl"
     },
     {
@@ -400,9 +400,9 @@
         ],
         "diretta_id": "S0nUsKBh",
         "diretta_name": "zenit-st-petersburg",
-        "elo": 444.6249866244815,
-        "last_match_date": "2025-12-21",
-        "last_match_id": "2025-12-21_S0nUsKBh_tOoNOmgh",
+        "elo": 447.1644416652684,
+        "last_match_date": "2025-12-29",
+        "last_match_id": "2025-12-29_S0nUsKBh_hbFonVBi",
         "country_iso2": "ru"
     },
     {
@@ -452,9 +452,9 @@
         ],
         "diretta_id": "hbFonVBi",
         "diretta_name": "kemerovo",
-        "elo": 261.9745474440682,
-        "last_match_date": "2025-12-19",
-        "last_match_id": "2025-12-19_hbFonVBi_K85RJEn0",
+        "elo": 259.4350924032813,
+        "last_match_date": "2025-12-29",
+        "last_match_id": "2025-12-29_S0nUsKBh_hbFonVBi",
         "country_iso2": "ru"
     },
     {
@@ -2078,9 +2078,9 @@
         ],
         "diretta_id": "0QqJdHDe",
         "diretta_name": "benfica",
-        "elo": 410.92130275273905,
-        "last_match_date": "2025-12-21",
-        "last_match_id": "2025-12-21_0QqJdHDe_nH7SYtOH",
+        "elo": 411.6921141083897,
+        "last_match_date": "2025-12-29",
+        "last_match_id": "2025-12-29_WATxDxSt_0QqJdHDe",
         "country_iso2": "pt"
     },
     {
@@ -2208,9 +2208,9 @@
         ],
         "diretta_id": "WATxDxSt",
         "diretta_name": "clube-k",
-        "elo": 142.17265148678786,
-        "last_match_date": "2025-12-20",
-        "last_match_id": "2025-12-20_INkEKK52_WATxDxSt",
+        "elo": 141.40184013113716,
+        "last_match_date": "2025-12-29",
+        "last_match_id": "2025-12-29_WATxDxSt_0QqJdHDe",
         "country_iso2": "pt"
     },
     {
@@ -3331,5 +3331,16 @@
         "elo": 190.75269670296822,
         "last_match_date": "2025-12-17",
         "last_match_id": "2025-12-17_2B0AEVeG_WfHkZBAC"
+    },
+    {
+        "name": "Unknown Team",
+        "names": [
+            "Unknown Team"
+        ],
+        "diretta_id": "UFek062c",
+        "diretta_name": "bielsko-biala",
+        "elo": 198.2889148127148,
+        "last_match_date": "2025-12-29",
+        "last_match_id": "2025-12-29_UFek062c_pAof6Hml"
     }
 ]
