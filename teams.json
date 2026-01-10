@@ -280,9 +280,9 @@
         ],
         "diretta_id": "2kggPBWE",
         "diretta_name": "slepsk-suwalki",
-        "elo": 349.88044426322483,
-        "last_match_date": "2026-01-04",
-        "last_match_id": "2026-01-04_2kggPBWE_lWD9RIPD",
+        "elo": 346.67516660346644,
+        "last_match_date": "2026-01-09",
+        "last_match_id": "2026-01-09_Ao2IPdfQ_2kggPBWE",
         "country_iso2": "pl"
     },
     {
@@ -293,9 +293,9 @@
         ],
         "diretta_id": "Ao2IPdfQ",
         "diretta_name": "trefl-gdansk",
-        "elo": 394.2602855269014,
-        "last_match_date": "2026-01-02",
-        "last_match_id": "2026-01-02_Ao2IPdfQ_21Os7cYs",
+        "elo": 397.4655631866598,
+        "last_match_date": "2026-01-09",
+        "last_match_id": "2026-01-09_Ao2IPdfQ_2kggPBWE",
         "country_iso2": "pl"
     },
     {
@@ -387,9 +387,9 @@
         ],
         "diretta_id": "tOoNOmgh",
         "diretta_name": "novosibirsk",
-        "elo": 448.3204709715152,
-        "last_match_date": "2026-01-05",
-        "last_match_id": "2026-01-05_tOoNOmgh_hbFonVBi",
+        "elo": 449.1263949859479,
+        "last_match_date": "2026-01-09",
+        "last_match_id": "2026-01-09_YgncOTwn_tOoNOmgh",
         "country_iso2": "ru"
     },
     {
@@ -426,9 +426,9 @@
         ],
         "diretta_id": "YgncOTwn",
         "diretta_name": "ufa",
-        "elo": 304.10697131236225,
-        "last_match_date": "2026-01-04",
-        "last_match_id": "2026-01-04_YgncOTwn_2wzWMRN4",
+        "elo": 303.30104729792953,
+        "last_match_date": "2026-01-09",
+        "last_match_id": "2026-01-09_YgncOTwn_tOoNOmgh",
         "country_iso2": "ru"
     },
     {
@@ -739,9 +739,9 @@
         ],
         "diretta_id": "dhVmA0z9",
         "diretta_name": "sada-cruzeiro",
-        "elo": 430.94625189992576,
-        "last_match_date": "2025-12-18",
-        "last_match_id": "2025-12-18_dhVmA0z9_EJS1lfOD",
+        "elo": 431.79899757623105,
+        "last_match_date": "2026-01-09",
+        "last_match_id": "2026-01-09_fsTxZQzt_dhVmA0z9",
         "country_iso2": "br"
     },
     {
@@ -778,9 +778,9 @@
         ],
         "diretta_id": "dxBuFAus",
         "diretta_name": "sesi-sp",
-        "elo": 317.98836023499064,
-        "last_match_date": "2025-12-21",
-        "last_match_id": "2025-12-21_xfxfdEus_dxBuFAus",
+        "elo": 321.8194078020693,
+        "last_match_date": "2026-01-09",
+        "last_match_id": "2026-01-09_lSPIzHQL_dxBuFAus",
         "country_iso2": "br"
     },
     {
@@ -804,9 +804,9 @@
         ],
         "diretta_id": "lSPIzHQL",
         "diretta_name": "joinville",
-        "elo": 282.9429059293209,
-        "last_match_date": "2025-12-20",
-        "last_match_id": "2025-12-20_0pxnGFZT_lSPIzHQL",
+        "elo": 279.11185836224223,
+        "last_match_date": "2026-01-09",
+        "last_match_id": "2026-01-09_lSPIzHQL_dxBuFAus",
         "country_iso2": "br"
     },
     {
@@ -869,9 +869,9 @@
         ],
         "diretta_id": "fsTxZQzt",
         "diretta_name": "jf-volei",
-        "elo": 168.71945290594599,
-        "last_match_date": "2025-12-12",
-        "last_match_id": "2025-12-12_QqMi2DVn_fsTxZQzt",
+        "elo": 167.86670722964072,
+        "last_match_date": "2026-01-09",
+        "last_match_id": "2026-01-09_fsTxZQzt_dhVmA0z9",
         "country_iso2": "br"
     },
     {
